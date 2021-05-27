@@ -14,6 +14,10 @@ body{
     /*font-family: 'Dosis', sans-serif;*/
     /*background-image: url("../images/back.jpg");*/
 }
+/*this was modified because with the default value of bootstrap make the column appear with a big space between this and the rest of the others columns (i take this value from the chrome developer tools)*/
+.row{
+    --bs-gutter-x: 0rem;
+}
 a{
     text-decoration: none;
 }
@@ -43,6 +47,11 @@ ul {
 .main-box-data-title{
    height: 340px;
 }
+
+.second-box-content {
+    min-height: 449px;
+}
+
 /*this rule make the (core competences) box to have a fixed height*/
 .second-box-content{
     min-height: 652px;
@@ -192,6 +201,15 @@ ul {
             .spacing-borders-main-box{
                 margin-bottom: 2px;
             }
+
+            /*this rule reduce de size of the first box to acomodate the h4 inside and make it looks better*/
+            .main-box-data-title-my-story{
+                height: 90px;
+            }
+            .second-box-content-my-story {
+                min-height: 449px;
+                padding: 25px;
+            }
             /*---------------------------------------------------------*/
             
             /*this rule make the h2 inside of the first box (full stack web developer) have the position and the font-size weight*/
@@ -215,10 +233,7 @@ ul {
                 padding: 20px 45px;
                 text-align: center;
             }
-            /*this was modified because with the default value of bootstrap make the column appear with a big space between this and the rest of the others columns (i take this value from the chrome developer tools)*/
-            .recent-activity-property{
-                --bs-gutter-x: 0rem;
-            }
+            
             /*this rule modifie the position of the ul list (personal info list) to make it be next to the profile picture*/
             #personal-info{
                 position: relative;
