@@ -28,3 +28,458 @@ ul {
 .uppercase{
     text-transform: uppercase;
 }
+
+.rounded-divs{
+    border-radius: 15px;
+}
+
+/*this rule make space between the boxes in the webpage*/
+.spacing-borders{
+    border:solid 2px;
+    border-color: rgba(0, 0, 0, 0);
+}
+
+/*this rule make the personal info box to have a fixed height*/
+.main-box-data-title{
+   height: 340px;
+}
+/*this rule make the (core competences) box to have a fixed height*/
+.second-box-content{
+    min-height: 652px;
+}
+/*this rule make the porofile image have his rounded borders, size and position in the webpage*/
+.imagen{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: solid 2px;
+    border-color:   rgba(128, 128, 128, 0.356);
+    background-image: url("../images/profile-picture.png");
+    background-position: center;
+    background-repeat: none;
+    position: relative;
+    float: left;
+    top: 120px;
+    left: -175px;
+}
+/*this rule make the mobile personal info disapear*/
+#personal-info-mobile{
+    display: none;
+    visibility: hidden;
+}
+
+/*-----------------     COLORS    -------------------- (((( in this section we have almost all the color aplied to the different object ))))*/
+
+
+        /* HEADER */
+                        
+            /* set a underlione in the navbar element which is active, so you are un the home page, the home <p> will appear with a underline decoration */
+           .active-element-navbar{
+                text-decoration: underline;
+           }
+           /* this set the color of the items in the navbar when they are hovered */
+           .ul-nav-bar a:hover{
+               color: #f2cc8f;
+           }
+            
+
+        /* ------ */
+        
+        /* SECTION */
+            /* this is the background of the main box (the first one, in the home page for example is the personal info box) */
+            .main-data-box-color{
+                background-color: #b0cfc0;
+            }
+            /* this is the background of the second box (in the home page for example is the core competences box) */
+            .second-box-content-color{
+                background-color: #f4f1de;
+            }
+            /* this is the background of the recent activity box (in the home page for example is the recent activities box) */
+            .recent-activity-color{
+                background-color: #f2cc8f;
+            }
+            
+        /* ------ */
+        
+        /* FOOTER */
+            /* this is the footer background and the font color which affect our icons to */
+            .bg-footer-color{
+                background-color: #3d405b;
+                color: white;
+            }
+           /* this change the anchor color to white, overwriting the blue color*/
+            footer a{
+                color: white;
+            }
+            /* this change the anchor color when is hovered, this change de color of our icons to*/
+            a:hover{
+                color: #f2cc8f;
+            }
+        /* ------ */
+            
+
+        
+
+
+/* -----------------      RULES     (here are all the rules before reach certain resolution)-------------------- */
+
+
+         /* ------------     header     ----------- */
+            
+            /*this rule make the desktop navbar be closer to the main content*/
+            .ul-nav-bar{
+                position: relative;
+                margin-top: 15px;
+                font-size: 15px;
+            }
+            /*this rule make li be inline-block element to be one next to other adding some margin to make them looks better, this rule make the navbar be horizontal*/
+            .ul-nav-bar li{
+               display: inline-block;
+               margin: 5px 20px;
+            }
+            /*this rule overwrite the blue color of every single anchor in the navbar and move 10px to make them looks more in the center*/
+            .ul-nav-bar a{
+                color: rgb(71, 67, 67);
+                position: relative;
+                top: 10px;
+            }
+            /*this rule add a small vertical line between the element in the navbar*/
+            .vertical-line{
+                border-left: solid 2px black;
+            }
+
+            /*this rule add style to the icons in the navbar, also add the width and height to make the icon be separated from the <p>*/
+            .icon-font{
+                position: relative;
+                font-size: 20px;
+                width: 4.5em;
+                height: 1.2em;
+            }
+            /* this fix the height of the header */
+            .main-header{
+                height: 75px;
+            }
+            /* inside of the ul (navbar for desktop) we have <p> element for every single page (home,about me, etc) this rule make all the <p> float next to the icon and centered */
+            .nav-bar-titles{
+                float: right;
+                position: relative;
+                left: -5px;
+                top: -3px;
+            }
+            /* this rule make the mobile header (navbar) hidden, because its only be show when the width screen si less than 768px */
+            #mobile-header{
+                display: none;
+                visibility: hidden;
+            }
+
+
+            
+
+        /* ---------------------------------------- */
+
+
+        /* ------------     section     ----------- */
+
+            /* this rule make the main row which have inside the main 3 boxes, for example in the home page this boxes are (personal info, my core competences, recent activity) and make it be fixed*/
+            .middle-section{
+                min-height:1000px;
+            }
+            /*this two rules make the first and the second box (cols) have some space each other*/
+            .spacing-borders-second-box{
+                margin-top: 2px;
+            }
+            
+            .spacing-borders-main-box{
+                margin-bottom: 2px;
+            }
+            /*---------------------------------------------------------*/
+            
+            /*this rule make the h2 inside of the first box (full stack web developer) have the position and the font-size weight*/
+            #my-role{
+                position: relative;
+                top: 30px;
+                left: 30px;
+                font-size: 28px;
+                font-weight: 500;
+            }
+            /*this rule affect the main details which is in the first box (col), its a unorder list, we apply a list tyle none to make it looks nicer*/
+            #my-main-details{
+                list-style: none;
+                font-weight: 500;
+                color: rgba(0, 0, 0, 0.541);
+            }
+            /*this overflow rules make the recent activity have the enogh height to be next to the footer in the bottom of the webpage, and align the text to*/
+            .overflow-recent-activity{
+                width: 100%;
+                height: 1246px;
+                padding: 20px 45px;
+                text-align: center;
+            }
+            /*this was modified because with the default value of bootstrap make the column appear with a big space between this and the rest of the others columns (i take this value from the chrome developer tools)*/
+            .recent-activity-property{
+                --bs-gutter-x: 0rem;
+            }
+            /*this rule modifie the position of the ul list (personal info list) to make it be next to the profile picture*/
+            #personal-info{
+                position: relative;
+                float: right;
+                top: -180px;
+                left: -120px;
+            }
+            /*this rule make the li element in the personal info list more nicer*/
+            #personal-info li{
+                position: relative;
+                margin-top: 10px;
+                left: 50px;
+            }
+            /*this rule make the li element with the values (ex the name) with a diferent weight and moving the position to make it looks better*/
+            .value-of-data{
+                position: relative;
+                font-weight: 500;
+                font-size: 1.2em;
+                top: -20px;
+                left: 10px;
+            }
+            /*this rule reduce the height of every li element in the personal info list to make them be more close eachother*/
+            #my-main-details li{
+                height: 40px;
+            }
+            /*this rule add some margin to the tittle of the recent activity box (col) to make it looks better*/
+            #activities-table h3{
+                margin: 15px auto 35px auto;
+            }
+            /*this rule add some space between the divs (activities divs) to make them looks better*/
+            .activity-item{
+                margin-top: 50px;
+            }
+            /*we tranform every single h5 from the recent activities uppercase*/
+            .activity-item h5{
+                text-transform: uppercase;
+            }
+            /*this rule add some padding-top to the second box an make the content look more centered*/
+            .second-box-content{
+                padding: 25px;
+            }
+            /*this rule add some margin and font weight to the (my core competence box)*/
+            .second-box-content h2{
+                margin: 60px auto 30px auto;
+                font-weight: 600;
+            }
+            /*this rule add some space between every single div inside of the (my core competence) box*/
+            .core-competences-item{
+                padding: 15px 40px;
+            }
+
+        /* ------------------------------------- */
+
+
+        /* ------------      footer     ----------- */
+
+            /* this rule make de footer fixed in height to make it be at the same line in the bottom with the recent activity box*/
+            .footer-col{
+                height: 250px;
+            }
+            /*this make the some space between the icon and the text in the contact and de social lu in the footer*/
+            .contact-social-divs i{
+                margin-right: 20px;
+                font-size: 1.2em;
+            }
+            /*this rule make de footer box be at the same heigh than the activity box, to make them align together*/
+            footer{
+                position: relative;
+                top: -250px;
+            }
+            /*this add some space between the footer box and the second box, in the home page for example is the my core competence*/
+            .footer-border{
+                border: solid 2px;
+            }
+
+        /* ------------      footer     ----------- */
+
+        /* ---------------    RESPONSIVENES  ------------------(in this place are all the rules for responsive) */
+
+        /*rules for screen width 1200px*/
+        @media (max-width:1200px){
+            /* ------------     SECTION     ----------- */
+            /*this rule ajust the posistion of the image*/
+            .imagen{
+                top: 120px;
+                left: -155px;
+            }
+
+        }
+        /*rules for screen width 992px*/
+        @media (max-width:992px){
+
+            /* ------------     general     ---------- */
+            /*this rule ajust the main box and the footer with a 100% width because we hidde the recent activity box*/
+            .mobile-width-ajustment{
+                width: 100%;
+            }
+
+            /* ------------     header     ----------- */
+            /*this margin applied to the li element make the li be in the same line when the screen width is below 992px*/
+            .ul-nav-bar li{
+                margin: 5px 15px;
+             }
+             
+            /* this rule aling the anchor with the span elemnt (the vertical lines)*/
+            .ul-nav-bar a{
+                top: 10px;
+            }
+            /*this rule modified the width and font size to make them looks better and fix a overflow problem*/
+            .icon-font{
+                font-size: 20px;
+                width: 3.5em;
+                height: 1.2em;
+            }
+
+            
+            
+        /* ------------     SECTION     ----------- */
+            /*this rule hidde the recent activity box*/
+            .recent-activity-property{
+                display: none;
+                visibility: hidden;
+            }
+            
+        /* ------------     FOOTER     ----------- */
+            /*because i hidde the recent activity box, the footer come up, so this rule adjust the position to not overlap the second box*/
+            footer{
+                position: relative;
+                top: 0px;
+            }
+
+        }
+        /*this rules are made to adjust the content when the width is below 768px*/
+        @media (max-width:768px){
+
+            /*this rule make the mobile navbar appear*/
+            #mobile-header{
+                visibility: visible;
+                display: initial;
+            }
+            /*this rule adjust the mobile header tittle (full stack developer)*/
+            #tittle-header-mobile{
+                float: left;
+                font-size: 28px;
+            }
+            /*this rule improve the position of the mobile navbar*/
+            #mobile-header{
+                position: relative;
+                top: 15px;
+            }
+            /*this rule make the nav button (dropdown) be in the rigth side of the page, when is in mobile mode*/
+            #menu-buttom{
+                float: right;
+            }
+            /*this rule make the desktop navbar disapear, its hidde the desktop navbar*/
+            .ul-nav-bar{
+                display: none;
+                visibility: hidden;
+            }
+            /*this make the dropdown menu smaller*/
+            .dropdown-menu {
+                min-width: 6em;
+                max-width: 7em;
+            }
+            
+        /* ------------     SECTION     ----------- */
+            /*this make the div personal info for desktop disapear*/
+            #personal-info{
+                display: none;
+                visibility: hidden;
+            }
+            /*this make the h2 my-role disapper*/
+            #my-role{
+                visibility: hidden;
+                top: 0px;
+                left: 0px;
+            }
+            /*this rule modified the my-role content for the name and make it visible*/
+            #my-role:after{
+                content: 'Humberto Ragazzini';
+                visibility: visible;
+                display: flex;
+                justify-content: center;
+            }
+            /*this adjust the position and the radius of the image to make it more nicer*/
+            .imagen{
+                width: 200px;
+                height: 200px;
+                top: 120px;
+                left: 0px;
+                border-radius: 15%;
+            }
+            /*this make visible the personal infor mobile div, and add some position improvement*/
+            #personal-info-mobile{
+                display: inline-block;
+                visibility: visible;
+                position: relative;
+                top: -195px;
+                text-align: center;
+            }
+            /*this remove the padding left of the ul list to make them be align eachother*/
+            #personal-info-ul{
+                padding-left: 0px;
+                
+            }
+            /*this rule adjust the li from the personal info to make them be more closer eachother*/
+            #personal-info-ul li{
+                height: 50px;
+            }
+            
+            /*this rule add some styling to the value in the personal info mobile ul*/
+            .value-of-data {
+                position: relative;
+                left: -7px;
+                font-weight: 300;
+            }
+            /*this add some style in the type of data of the personal info mobile ul*/
+            .type-of-data{
+                position: relative;
+                left: -7px;
+                font-weight: 500;
+            }
+
+            /* ------------     FOOTER     ----------- */
+            
+            /*this rule make the span disapear to leave all the icons alones*/
+            .footer-layout-transformation span{
+                visibility: hidden;
+                display: none;
+            }
+            /*this rule make the li of the social footer part one next to eachother*/
+            .footer-layout-transformation.social-footer li{
+                display: inline;
+                padding: 0px;
+            }
+            /*this rule make de col footer adjust the height dependint of the width*/
+            .footer-col{
+                height: auto;
+            }
+            /*because we move all the divs in one line, this rule help to aling every one in the center*/
+            .contact-social-divs{
+                text-align: center;
+            }
+            /*this rule change the font size affecting the icons and make them looks more bigger*/
+            .footer-layout-transformation.social-footer i{
+                font-size: 40px;
+            }
+            /*this rule eliminate the padding from the ul to make the icons be more centered*/
+            .social ul{
+                padding-left: 0px;
+            }
+            /*we add padding top,right,left and bottom, to make all the content in the footer looks more centered*/
+            .footer-col{
+                padding: 25px;
+            }
+            /*move the download link in (LINKS) to make it more centered*/
+            #download-link-footer{
+                position: relative;
+                left: 10px;
+                font-size: 15px;
+            }
+            /* --------------------------------------- */
+          
+        }
