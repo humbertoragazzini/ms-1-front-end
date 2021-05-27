@@ -483,3 +483,20 @@ ul {
             /* --------------------------------------- */
           
         }
+            /*this rules make the web looks nicer when it reach width below 456px*/
+            @media (max-width:456px){
+
+                /**this rule make the mobile header looks more verticaly centered*/
+                #mobile-header{
+                        position: relative;
+                        top: 20px;
+                }
+                /*this rule make the dropdown buttom looks more centered*/
+                #menu-buttom{
+                     top: -6px;
+                     font-size: 20px;
+                }
+             
+        }
+                /* --------------------------------------- */
+        
