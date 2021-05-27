@@ -77,6 +77,57 @@ ul {
     visibility: hidden;
 }
 
+/*---------------------------- MY STORY RULES -----------------------------------*/
+
+        /*SECTION*/
+            /*this rule make the circle image in the my history work*/
+            .empresas{
+                background-color: black;
+                border-radius: 50%;
+                width: 90px;
+                height: 90px;
+            }
+            /*this rule is for that boxes in the my history work*/
+            .square-date{
+                background-color: orange;
+                border: solid 2px black;
+                width: 90px;
+                margin: 20px -2px;
+                height: 25px;
+            }
+            .work-item{
+                display: inline-block;
+            }
+            .work-item-displaced{
+                position: relative;
+                top: 90px;
+            }
+            .work-line-conector{
+                display: inline-block;
+                width: 70px;
+                border: solid 2px black;
+                opacity: 1;
+                margin: 30px -5px;
+                padding: 0px;
+            }
+            .vertical-line{
+                width: 3px;
+                height: 22px;
+                background-color: black;
+                position: relative;
+            }
+            .vertical-line-regular{
+                top: 90px;
+                left: 44px;
+            }
+            .vertical-line-displaced{
+                top: -22px;
+                left: 44px;
+            }
+        /*-------*/
+
+/*-------------------------------------------------------------------------------*/
+
 /*-----------------     COLORS    -------------------- (((( in this section we have almost all the color aplied to the different object ))))*/
 
 
