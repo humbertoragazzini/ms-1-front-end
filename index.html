@@ -13,7 +13,67 @@
         
         <div class="container">
             <div class="row">
+                <div class="col-12 bg-header-color d-flex justify-content-center text-center main-header rounded-divs spacing-borders">
+                    <div class="col">
+                        <!-- this is de ul for desktop mode navbar and is visible util the screen reach 768px-->
+                        <ul class="ul-nav-bar">
+                            <li>
+                                <a href="index.html" class="active-element-navbar">
+                                    <div>
+                                        <i class="fas fa-home icon-center icon-font"></i>
+                                        <p class="nav-bar-titles uppercase active-element-navbar">home</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <span></span>
+                            <li class="vertical-line">
+                                <a href="mystory.html">
+                                    <i class="fas fa-landmark icon-center icon-font"></i>
+                                    <p class="nav-bar-titles uppercase">my story</p>
+                                </a>
+                            </li>
+                            <li class="vertical-line">
+                            
+                               <a href="aboutme.html">
+                                    <i class="fas fa-male icon-center icon-font"></i>
+                                    <p class="nav-bar-titles uppercase">about me</p>
+                               </a>
+                            
+                            </li>
+                            <li class="vertical-line">
+                               <a href="contact.html">
+                                   <i class="fas fa-comments icon-center icon-font"></i>
+                                   <p class="nav-bar-titles uppercase">contact</p>
+                               </a>
+                            </li>
+                        </ul>
+                        <!-------------------------------------------------------------------------------------------->
 
+
+                        <!-- this is de ul for the navbar mobile mode, contain the id (mobile-header) this id make it appear when it reach 768px wide -->
+                        <div id="mobile-header">
+
+                            <h1 id="tittle-header-mobile">Full Stack Developer</h1>
+
+                            <!-- this is a dropdown menu with bootstrap and is the main menu button in the mobile mode -->
+                              <div class="dropdown" id="menu-buttom">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fas fa-bars"></i>
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end " aria-labelledby="dropdownMenuButton1" id="drop-menu">
+                                  <li><a class="dropdown-item uppercase" href="index.html">home</a></li>
+                                  <li><a class="dropdown-item uppercase" href="mystory.html">My Story</a></li>
+                                  <li><a class="dropdown-item uppercase" href="aboutme.html">About Me</a></li>
+                                  <li><a class="dropdown-item uppercase" href="contact.html">Contact</a></li>
+                                </ul>
+                              </div>
+                            <!------------------------------------------------------------------------------------------>
+                        </div>
+                        
+                        <!-------------------------------------------------------------------------------------------->
+                       
+                    </div>  
+                </div>
             </div>
         </div>
     </header>
@@ -37,5 +97,6 @@
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 </html>
