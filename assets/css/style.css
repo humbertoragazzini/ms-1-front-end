@@ -82,7 +82,6 @@ ul {
         /*SECTION*/
             /*this rule make the circle image in the my history work*/
             .empresas{
-                background-color: black;
                 border-radius: 50%;
                 width: 90px;
                 height: 90px;
@@ -110,7 +109,7 @@ ul {
                 margin: 30px -5px;
                 padding: 0px;
             }
-            .vertical-line{
+            .vertical-line-table{
                 width: 3px;
                 height: 22px;
                 background-color: black;
@@ -123,6 +122,21 @@ ul {
             .vertical-line-displaced{
                 top: -22px;
                 left: 44px;
+            }
+            #logo-jazztel{
+                background-image: url("../images/jazztel.png");
+                background-position: center;
+                background-size: cover;
+            }
+            #logo-hdc{
+                background-image: url("../images/hdc.png");
+                background-position: center;
+                background-size: cover;
+            }
+            #logo-morrisons{
+                background-image: url("../images/morrisons.png");
+                background-position: center;
+                background-size: cover;
             }
         /*-------*/
 
