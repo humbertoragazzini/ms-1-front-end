@@ -100,33 +100,60 @@
                                 <div class="col">
                                     <h3>My Work History</h3>
                                     <!-- this block of code is the table with every job and the dates -->
-                                    <div class="col work-history-block">
+                                    <div class="col d-flex justify-content-center work-history-block">
+                                        <!--inside of this block of code we have (empresas=logo of the compani circular), (span= kind of job done in that particular company), vertical and horizontal lines to conect circles and squares-->
                                         <div class="work-item">
-                                            <div class="empresas"  id="logo-jazztel">
+                                            <div class="empresas solid-border logo-jazztel">
                                                 <div class="vertical-line-table vertical-line-regular">
                                                     <span>IT ADSL Technician</span>
                                                 </div>
                                             </div>
-                                            <div class="square-date"><p>2007-2013</p></div>
+                                            <div class="square-date solid-border"><p>2007-2013</p></div>
                                         </div>
-                                        <hr class="work-line-conector ">
+                                        <hr class="work-line-conector solid-border">
                                         <div class="work-item work-item-displaced">
-                                            <div class="square-date"><p>2013-2016</p></div>
-                                            <div class="empresas"  id="logo-hdc">
+                                            <div class="square-date solid-border"><p>2013-2016</p></div>
+                                            <div class="empresas solid-border logo-hdc">
                                                 <div class="vertical-line-displaced vertical-line-table">
                                                     <span>Computer Selesman</span>
                                                 </div>
                                             </div>
                                         </div>
-                                        <hr class="work-line-conector">
+                                        <hr class="work-line-conector solid-border">
                                         <div class="work-item">
-                                            <div class="empresas" id="logo-morrisons">
+                                            <div class="empresas solid-border logo-morrisons">
                                                 <div class="vertical-line-table vertical-line-regular">
                                                     <span>Night Assistant</span>
                                                 </div>
                                             </div>
-                                            <div class="square-date"><p>2016-2021</p></div>
+                                            <div class="square-date solid-border"><p>2016-2021</p></div>
                                         </div>
+                                    
+                                    <!--This part of the code have the block code of history work, when the width is below 500px-->
+                                   
+                                        <ul id="time-line" class="work-history-block-mobile">
+                                            <li class="time-line-item">
+                                                <p>IT ADSL Technician</p>
+                                                <p>2007-2013</p>
+                                                <div class="empresas solid-border logo-jazztel">
+                                                    <hr class="work-line-conector-mobile solid-border">
+                                                </div>
+                                            </li>
+                                            <li id="time-line-item-displaced" class="time-line-item">
+                                                <p>IT ADSL Technician</p>
+                                                <p>2007-2013</p>
+                                                <div class="empresas solid-border logo-hdc">
+                                                    <hr class="work-line-conector-mobile solid-border">
+                                                </div>
+                                            </li>
+                                            <li class="time-line-item">
+                                                <p>IT ADSL Technician</p>
+                                                <p>2007-2013</p>
+                                                <div class="empresas solid-border logo-morrisons">
+                                                    <hr class="work-line-conector-mobile solid-border">
+                                                </div>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
                                 
@@ -134,7 +161,7 @@
                         </div>
                         <!-------------------------------------------------------------------------------------------->
                         
-                        <!--in this row is the core competences box-->
+                        <!--in this row is the education history box-->
                         <div class="row">
                             <div class="col-12 rounded-divs second-box-content-color spacing-borders-second-box text-center second-box-content-my-story">
                                 <div class="col"><h3>My Education History</h3></div>
