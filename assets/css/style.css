@@ -85,6 +85,7 @@ ul {
                 border-radius: 50%;
                 width: 90px;
                 height: 90px;
+                border: solid 2px black;
             }
             /*this rule is for that boxes in the my history work*/
             .square-date{
@@ -110,18 +111,19 @@ ul {
                 padding: 0px;
             }
             .vertical-line-table{
+                border: none;
                 width: 3px;
                 height: 22px;
                 background-color: black;
                 position: relative;
             }
-            .vertical-line-regular{
-                top: 90px;
-                left: 44px;
+            .vertical-line-regular {
+                top: 88px;
+                left: 41px;
             }
             .vertical-line-displaced{
                 top: -22px;
-                left: 44px;
+                left: 41px;
             }
             #logo-jazztel{
                 background-image: url("../images/jazztel.png");
@@ -138,6 +140,32 @@ ul {
                 background-position: center;
                 background-size: cover;
             }
+            .work-history-block{
+                margin-top: 35px;
+            }
+            .square-date p{
+                float: right;
+                position: relative;
+                top: 30px;
+                left: -5px;
+                font-size: 20px;
+                font-weight: 500;
+            }
+            .work-item-displaced p {
+                top: -35px;
+            }
+            .vertical-line-table span {
+                float: right;
+                position: relative;
+                top: 85px;
+                width: 120px;
+                left: 57px;
+                font-weight: 600;
+            }
+            .vertical-line-displaced span{
+                top: -105px
+            }
+
         /*-------*/
 
 /*-------------------------------------------------------------------------------*/
