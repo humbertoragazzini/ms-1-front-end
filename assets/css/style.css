@@ -95,13 +95,16 @@ ul {
                 margin: 20px -2px;
                 height: 25px;
             }
+            /* to avoid the block positioning this option conver the work item in a inline-block element to make it one next to eachother*/
             .work-item{
                 display: inline-block;
             }
+            /*to aling all the squares in a same line we move the work item 90px*/
             .work-item-displaced{
                 position: relative;
                 top: 90px;
             }
+            /*this rule make the hr a horizontal line to conect all the diferent work items*/
             .work-line-conector{
                 display: inline-block;
                 width: 70px;
@@ -110,6 +113,7 @@ ul {
                 margin: 30px -5px;
                 padding: 0px;
             }
+            /*this rule make the div a vertical line to conect all the diferent work items with the logos*/
             .vertical-line-table{
                 border: none;
                 width: 3px;
@@ -117,32 +121,39 @@ ul {
                 background-color: black;
                 position: relative;
             }
+            /*this rule apply for everi single vertical line in the work history to make the position look better*/
             .vertical-line-regular {
                 top: 88px;
                 left: 41px;
             }
+            /*because one of the work items is displaced to the bottom we need a rule to this particular item to make it move in a better position*/
             .vertical-line-displaced{
                 top: -22px;
                 left: 41px;
             }
+            /*this rule aplly the logo background to the jazztel circle*/
             #logo-jazztel{
                 background-image: url("../images/jazztel.png");
                 background-position: center;
                 background-size: cover;
             }
+            /*this rule aplly the logo background to the hdc circle*/
             #logo-hdc{
                 background-image: url("../images/hdc.png");
                 background-position: center;
                 background-size: cover;
             }
+            /*this rule aplly the logo background to the morrisons circle*/
             #logo-morrisons{
                 background-image: url("../images/morrisons.png");
                 background-position: center;
                 background-size: cover;
             }
+            /*this rule move the whole block of history work 35px to make it looks better*/
             .work-history-block{
                 margin-top: 35px;
             }
+            /*this rule is applied to every single square in the my work history, adjunsting position and the font size of the P element inside*/
             .square-date p{
                 float: right;
                 position: relative;
@@ -151,9 +162,11 @@ ul {
                 font-size: 20px;
                 font-weight: 500;
             }
+            /*because we have 1 element displaced we create this rule to make it looks nicer*/
             .work-item-displaced p {
                 top: -35px;
             }
+            /*this rule is applied to the span inside of the vertical line, this span correspond to the kind of work made in that particular company*/
             .vertical-line-table span {
                 float: right;
                 position: relative;
@@ -162,6 +175,7 @@ ul {
                 left: 57px;
                 font-weight: 600;
             }
+            /*like every single rule, we need one for de displaced element inside of our work history, this rule applied to the span element inside of the vertical displaced line*/
             .vertical-line-displaced span{
                 top: -105px
             }
