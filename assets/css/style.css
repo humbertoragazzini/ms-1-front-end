@@ -598,6 +598,21 @@ ul {
                 background-position: center;
                 background-size: cover;
             }
+            .logo-sarmiento{
+                background-image: url("../images/sarmiento.png");
+                background-position: center;
+                background-size: cover;
+            }
+            .logo-utn{
+                background-image: url("../images/utn.png");
+                background-position: center;
+                background-size: cover;
+            }
+            .logo-ccna{
+                background-image: url("../images/ccna.png");
+                background-position: center;
+                background-size: cover;
+            }
             /*this rule move the whole block of history work 35px to make it looks better*/
             .work-history-block{
                 margin-top: 35px;
