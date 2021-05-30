@@ -5,6 +5,10 @@
 /* ----------------- GENERAL RULES -------------------- */
 
 body{
+    background-image: url(../images/background.jpg);
+    background-position: 0% 20%;
+    background-repeat: none;
+    background-size:  cover;
     max-width: 1080px;
     margin: 0 auto;
     color: black;
@@ -308,7 +312,7 @@ ul {
             }
             /*this add some space between the footer box and the second box, in the home page for example is the my core competence*/
             .footer-border{
-                border: solid 2px;
+                border: solid 2px rgba(0,0,0,0);
             }
 
         /* ------------      footer     ----------- */
@@ -718,3 +722,53 @@ ul {
         
 
 /*-------------------------------------------------------------------------------*/
+
+/*---------------------------- about me rules -----------------------------------*/
+
+        .progress{
+            height: 2rem;
+            margin: 39px 25px;
+            background-color: #3A95CB;
+        }
+        .coding-and-others-skills{
+            position: relative;
+            top: 40%;
+        }
+        .progress-bar{
+            padding-left: 15px;
+            text-align: left;
+            font-weight: 500;
+            background-color: #225979;
+        }
+
+        @if $enable-transitions {
+            @keyframes progress-bar-stripes {
+              0% { background-position-x: $progress-height; }
+            }
+          }
+
+/*------------------------------------------------------------------------------*/
+
+        .main-box-data-title-contact{
+            height: 140px;
+        }
+
+        fieldset {
+            min-width: 0;
+            padding: 25px;
+            margin: 0;
+            border: 0;
+            border: solid 1px;
+            max-width: 550px;
+        }
+        legend {
+            float: left;
+            width: 120px;
+            padding: 0;
+            margin-bottom: .5rem;
+            font-size: calc(1.275rem + .3vw);
+            line-height: inherit;
+            position: relative;
+            bottom: 45px;
+            background-color: #f4f1de;
+        }
