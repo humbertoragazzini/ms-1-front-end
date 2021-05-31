@@ -46,4 +46,26 @@ In my strategy one of the points was to show with the first visit that I am capa
 ## Structure
 
 In this section I am going to outline the basic structure, and how I am going to present all the information.
+
+* **What a visiter would like to see the first time**:
+    * How i am? 
+    * Personal details
+    * skills
+    * How to contact me?
+
+* **How i present this information**: yo pense que la mejor manera de presentar toda esta informacion es en grupos.
+    * The main group will be our tabs, home, my story, about me and contact.
+    * The secundary group will be the tiles (squares with information in it), this tiles will show more specific information about, skills, activities, studies.
+        * **Home**:
+            * _Personal information_: Here will be showing thing such like Full Name, Phone, Email and a profile picture.
+            * _Core Competences_: This tile is a group of core competences like team working, learning and adaptability, problem solving.
+            * _Recent Activities_: This tile will be a list of the lastest activities, such a studies, progress of a project, new adquired skills, etc.
+        * **My Story**:
+            * _My work history_: Basically its a time line of the different jobs ordered by date
+            * _My Studie history_: Like the work history this will be a time line with every single studie done by dates.
+        * **About Me**:
+            * _Coding Skills_: Inside of this tile are the different coding skills with the level of each one by porcentage.
+            * _Others Skills_:  Although this is a webdeveloper resume, in this tile is for others skills which are not directly connected with a web developer job, but can be helpful.
+        * **Contact**
+            * _Contact form_ : A contact form with basic information such a name, email, and a text area to write the job oportunity or project in mind.
   
