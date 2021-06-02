@@ -274,8 +274,8 @@ ul {
                 margin: 15px auto 35px auto;
             }
             /*this rule add some space between the divs (activities divs) to make them looks better*/
-            .activity-item{
-                margin-top: 50px;
+            .activity-item {
+                margin-top: 65px;
             }
             /*we tranform every single h5 from the recent activities uppercase*/
             .activity-item h5{
@@ -330,6 +330,9 @@ ul {
             .imagen{
                 top: 120px;
                 left: -155px;
+            }
+            .activity-item {
+                margin-top: 50px;
             }
 
         }
@@ -757,6 +760,16 @@ ul {
             height: 140px;
         }
 
+        textarea{
+            display: block;
+            margin: 15px 17%;
+        }
+
+        .btn-secondary{
+            position: relative;
+            left: 41px;
+        }
+
         fieldset {
             min-width: 300px;
             padding: 25px;
@@ -778,7 +791,7 @@ ul {
             margin: 5px auto;
         }
         .contact-form-labels{
-            margin-bottom: 15px;
+            
             margin-left: 17px;
             text-align: left;
         }

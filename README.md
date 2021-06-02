@@ -68,4 +68,131 @@ In this section I am going to outline the basic structure, and how I am going to
             * _Others Skills_:  Although this is a webdeveloper resume, in this tile is for others skills which are not directly connected with a web developer job, but can be helpful.
         * **Contact**
             * _Contact form_ : A contact form with basic information such a name, email, and a text area to write the job oportunity or project in mind.
-  
+
+        
+![image structure three](design/structure.png)
+
+
+
+## Skeleton
+
+In this part of the project i start building wireframes in balsamic of the structure to see how this menus and tiles (squares with more specific information) looks like.
+
+This is a direct link to try the wireframes, also below this link you can find images of every single wireframe made for this project:
+
+_Live Wireframes to try:_
+[Try Me](https://balsamiq.cloud/shar9rt/pap1kxl/r2278?f=N4IgUiBcCMA0IDkpxAYWfAMhkAhHAsjgFo4DSUA2gLoC%2BQA%3D)
+
+_Links of all the individual wireframes:_
+
+Home page:
+- [Home Desktop View](design/wireframes/home-view/home-desktop-view.png)
+- [Home Mobile View](design/wireframes/home-view/home-mobile-view.png)
+- [Home Tablet Landscape View](design/wireframes/home-view/home-tablet-landscape-view.png)
+- [Home Tablet Portrait View](design/wireframes/home-view/home-tablet-portrait-view.png)
+
+My Story page:
+- [My Story Desktop View](design/wireframes/my-story-view/my-story-desktop-view.png)
+- [My Story Mobile View](design/wireframes/my-story-view/my-story-mobile-view.png)
+- [My Story Tablet Landscape View](design/wireframes/my-story-view/my-story-tablet-landscape-view.png)
+- [My Story Tablet Portrait View](design/wireframes/my-story-view/my-story-tablet-portrait-view.png)
+
+My Story page:
+- [About Me Desktop View](design/wireframes/about-me-view/about-me-desktop-view.png)
+- [About Me Mobile View](design/wireframes/about-me-view/about-me-mobile-view.png)
+- [About Me Tablet Landscape View](design/wireframes/about-me-view/about-me-tablet-landscape-view.png)
+- [About Me Tablet Portrait View](design/wireframes/about-me-view/about-me-tablet-portrait-view.png)
+
+My Story page:
+- [Contact Desktop View](design/wireframes/contact-view/contact-desktop-view.png)
+- [Contact Mobile View](design/wireframes/contact-view/contact-mobile-view.png)
+- [Contact Tablet Landscape View](design/wireframes/contact-view/contact-tablet-landscape-view.png)
+- [Contact Tablet Portrait View](design/wireframes/contact-view/contact-tablet-portrait-view.png)
+
+## Surface
+
+In this section all the html and css coding start, in the skeleton surfave i try some color taken from [coolors](https://www.coolors.co), this site was provided by my mentor.
+
+The information is the most important item in this website, for this reason a chose some flat colors, no to bright and no to opaque.
+
+Before starting coding the index, I did a research about what are the most commond mobile and pc resolution around the world.
+
+The most commond mobile resolution are:
+
+Resolution | Mobile porcentage
+------------ | -------------
+360x640  | 10.77%
+414x896 | 7.37%
+360x780 | 5.9%
+375x667 | 5.56%
+360x800 | 5.52% 
+360x760 | 5.15% 
+
+Data taken from _[statcounter](https://gs.statcounter.com/screen-resolution-stats/mobile/worldwide)_
+
+For this reason i get to the body a minimum width of 360px to ajust to the bast majority of them.
+
+For desktop screen resolution the numbers are different
+
+Resolution | Desktop porcentage
+------------ | -------------
+1920x1080  | 20.99%
+1366x768 | 20.23%
+1536x864 | 9.72%
+1440x900 | 6.23%
+1280x720 | 5.45%
+1600x900 | 3.47%
+
+Between the 1080p and 768p resolution we have almost the 50% of the users, if we add 768p, 864p and 900p we have more than 60% of the users.
+
+In this case basically I adjust the desktop target resolution to 768p and a width max limit of 1200p and a body max limit to 1080p.
+
+In the next image we can see the web site in a desktop view and in a mobile view, the third image I apply some diferent resolution to show who the website behaves.
+
+----------------
+----------------
+----------------
+
+### Navbar
+
+The navbar is made for 4 main buttons, Home, My Story, About ME, Contact, each of this buttons show a line under beneath whe you are in that particular seccion.
+If the button is hover by the mouse its became in a different color to denotate that you are going to go that seccion.
+
+![the navbar gif](design/animation/surface/navbar.gif)
+
+### Middle Section
+
+In the middle seccion we can see betwen 1 to 3 main tiles (squares) the column (Recent activities) is presented in every single seccion (the contact seccion its the only one without this column).
+This column will show all the recent activities such a project, jobs.
+In the Story seccion we have 2 main tails, one with all the jobs by dates simple to read. Below we have the studies history line, both are full responsive, and change from horizontal layout (desktop or resolution wider than 500px) to vertical layout.
+Inside of about my, we can check all the skills, coding skills and other skills, every skill have his own porogress bar.
+The contact seccion have a contact form which is not working at the moument (do not send the request to a email)
+
+### The footer
+
+The footer its full responsive to, and have links to diferent parts of the site, and a download CV link, just in case some one need a more traditional cv format.
+The social column have links to the diferent social media websites.
+
+![the navbar gif](design/animation/surface/footer.gif)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
