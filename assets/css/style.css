@@ -143,24 +143,31 @@ ul {
             /*this rule make li be inline-block element to be one next to other adding some margin to make them looks better, this rule make the navbar be horizontal*/
             .ul-nav-bar li{
                display: inline-block;
-               margin: 5px 20px;
+               margin: 5px 15px;
             }
+            .ul-nav-bar div{
+                width: 160px;
+                padding: 5px 25px;
+             }
             /*this rule overwrite the blue color of every single anchor in the navbar and move 10px to make them looks more in the center*/
             .ul-nav-bar a{
                 color: rgb(71, 67, 67);
                 position: relative;
                 top: 10px;
             }
-            /*this rule add a small vertical line between the element in the navbar*/
-            .vertical-line{
+            .line-div-vertical{
                 border-left: solid 2px black;
             }
+            /*this rule add a small vertical line between the element in the navbar*/
+            /*.vertical-line{
+                border-left: solid 2px black;
+            }*/
 
             /*this rule add style to the icons in the navbar, also add the width and height to make the icon be separated from the <p>*/
             .icon-font{
                 position: relative;
                 font-size: 20px;
-                width: 4.5em;
+                width: 1.5em;
                 height: 1.2em;
             }
             /* this fix the height of the header */
@@ -334,11 +341,12 @@ ul {
             .ul-nav-bar a{
                 top: 10px;
             }
-            /*this rule modified the width and font size to make them looks better and fix a overflow problem*/
-            .icon-font{
-                font-size: 20px;
-                width: 3.5em;
-                height: 1.2em;
+            /* make some space in the divs and adjust position*/
+            .ul-nav-bar div {
+                width: 130px;
+                padding: 5px 0px;
+                position: relative;
+                right: 10px;
             }
 
             
