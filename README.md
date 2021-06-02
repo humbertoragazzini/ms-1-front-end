@@ -231,6 +231,43 @@ The site its made to be responsive between 360p to upto 1200px:
                     right: 40px;
                     }
                 ```
+            - bug ( bug in firefox navbar items without divs looks displaced to the top / fixed wrapping i and p element inside of a div)
+                ```
+                    <ul class="ul-nav-bar">
+                        <li>
+                            <a href="index.html">
+                                <div>
+                                    <i class="fas fa-home icon-center icon-font"></i>
+                                    <p class="nav-bar-titles uppercase active-element-navbar">home</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="vertical-line">
+                            <a href="mystory.html">
+                                <div>  
+                                    <i class="fas fa-landmark icon-center icon-font"></i>
+                                    <p class="nav-bar-titles uppercase">my story</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="vertical-line">
+                            <a href="aboutme.html">
+                                <div>
+                                    <i class="fas fa-male icon-center icon-font"></i>
+                                    <p class="nav-bar-titles uppercase">about me</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="vertical-line">
+                            <a href="contact.html">
+                                <div>
+                                    <i class="fas fa-comments icon-center icon-font"></i>
+                                    <p class="nav-bar-titles uppercase">contact</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                ```
         2) Profile Image: position, size, all correct from 360px to 1200px
         3) personal info: position, size, style, all correct from 360px to 1200px
         4) my core competences: position, size, style, style, all correct from 360px to 1200px
@@ -243,7 +280,7 @@ The site its made to be responsive between 360p to upto 1200px:
                         <li>
                             <a href="https://www.facebook.com" target="_blank">
                                 <i class="fab fa-facebook-square"></i>
-                                    <span>facebook</span>
+                                <span>facebook</span>
                             </a>
                         </li>
                         <li>
@@ -261,25 +298,27 @@ The site its made to be responsive between 360p to upto 1200px:
                         <li>
                             <a href="https://www.youtube.com" target="_blank">
                                 <i class="fab fa-youtube-square"></i>
-                                    <span>youtube</span>
-                                    </a>
+                                <span>youtube</span>
+                            </a>
                         </li>
                     </ul>
                 ```
 * My Story:
     - Tested:
         - Navbar ( all links: home, my story,about me, contact).
-            * _The navbar here was affected for the same bug than home page._
+            * _The navbar mobile was affected for the same bug than home page._
+            * _The navbar items was affected for the same bug than home page._
         - Profile Image: position, size, all correct from 360px to 1200px.
         - personal info: position, size, style, all correct from 360px to 1200px.
         - my core competences: position, size, style, style, all correct from 360px to 1200px.
         - footer: links, icons, social and download cv, style, all correct from 360px to 1200px.
             * _The links and social here was affected for the same bug than home page._
-            
+
 * About Me:
     - Tested:
         - Navbar ( all links: home, my story,about me, contact).
-            * _The navbar here was affected for the same bug than home page._
+            * _The navbar mobile was affected for the same bug than home page._
+            * _The navbar items was affected for the same bug than home page._
         - Profile Image: position, size, all correct from 360px to 1200px.
         - personal info: position, size, style, all correct from 360px to 1200px.
         - my core competences: position, size, style, style, all correct from 360px to 1200px.
@@ -289,7 +328,8 @@ The site its made to be responsive between 360p to upto 1200px:
 * Contact:
     - Tested:
         - Navbar ( all links: home, my story,about me, contact )
-            * _The navbar here was affected for the same bug than home page._
+            * _The navbar mobile was affected for the same bug than home page._
+            * _The navbar items was affected for the same bug than home page._
         - Profile Image: position, size, all correct from 360px to 1200px.
         - personal info: position, size, style, all correct from 360px to 1200px.
         - my core competences: position, size, style, style, all correct from 360px to 1200px.
