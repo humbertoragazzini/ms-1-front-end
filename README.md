@@ -194,31 +194,26 @@ The site its made to be responsive between 360p to upto 1200px:
 
 * I did the validation for every single page, this are the result:
     - Index validation: 
+    
     ![index validation](design/validator/index-validation.png)
 
 
     - My Story validation:
+    
     ![my story validation](design/validator/mystory-validation.png)
 
 
     - About Me validation:
+    
     ![about me validation](design/validator/aboutme-validation.png)
 
 
     - Contact validation:
+    
     ![contact validation](design/validator/contact-validation.png)
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-Validator Testing
-HTML
-No errors were returned when passing through the official W3C validator
-CSS
-No errors were found when passing through the official (Jigsaw) validator
-Unfixed Bugs
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
 
 
 
