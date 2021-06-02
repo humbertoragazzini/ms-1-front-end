@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,12 +11,12 @@
 </head>
 <body>
     <header>
-        <!-- this container is the navmenu, and contain the mobile one, and the desktop which is visible until you reach 768px wide -->
+        <!-- container navbar -->
         <div class="container">
             <div class="row">
                 <div class="col-12 bg-header-color d-flex justify-content-center text-center main-header rounded-divs spacing-borders">
                     <div class="col">
-                        <!-- this is de ul for desktop mode navbar and is visible util the screen reach 768px-->
+                        <!--desktop mode navbar-->
                         <ul class="ul-nav-bar">
                             <li>
                                 <a href="index.html">
@@ -38,7 +39,6 @@
                                     <i class="fas fa-male icon-center icon-font"></i>
                                     <p class="nav-bar-titles uppercase">about me</p>
                                </a>
-                            
                             </li>
                             <li class="vertical-line">
                                <a href="contact.html">
@@ -47,15 +47,10 @@
                                </a>
                             </li>
                         </ul>
-                        <!-------------------------------------------------------------------------------------------->
-
-
-                        <!-- this is de ul for the navbar mobile mode, contain the id (mobile-header) this id make it appear when it reach 768px wide -->
+                        <!--the navbar mobile mode-->
                         <div id="mobile-header">
-
                             <h1 id="tittle-header-mobile">Full Stack Developer</h1>
-
-                            <!-- this is a dropdown menu with bootstrap and is the main menu button in the mobile mode -->
+                            <!-- this is a dropdown menu -->
                               <div class="dropdown" id="menu-buttom">
                                 <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                     <i class="fas fa-bars"></i>
@@ -67,11 +62,7 @@
                                   <li><a class="dropdown-item uppercase" href="contact.html">Contact</a></li>
                                 </ul>
                               </div>
-                            <!------------------------------------------------------------------------------------------>
                         </div>
-                        
-                        <!-------------------------------------------------------------------------------------------->
-                       
                     </div>  
                 </div>
             </div>
@@ -80,39 +71,40 @@
 
     
     <section>
+        <!--middle section container-->
         <div class="container">
-            
             <div class="row">
                 <div class="col-12 col-sm-8 middle-section mobile-width-ajustment rounded-divs spacing-borders">
 
-                    <!--in this row we have first box with the picture and the personal info, I used 2 diferent col for mobile and desktop personal info, depend of the resolution, the first col will be active until reach 768px-->
+                    <!-- My story Title box -->
                     <div class="row ">
                         <div class="col-12 d-flex rounded-divs main-box-data-title-my-story main-data-box-color spacing-borders-main-box text-center align-items-center">
                             <div class="col"><h2>My story</h2></div>
                         </div>
                     </div>
-                    <!-------------------------------------------------------------------------------------------->
-                    
-                    <!--in this row is the history work box-->
+                    <!--history work box-->
                     <div class="row">
                         <div class="row ">
                             <div class="col-12 rounded-divs second-box-content-color spacing-borders-main-box text-center second-box-content-my-story spacing-borders-second-box">
                                 <div class="col">
                                     <h3>My Work History</h3>
-                                    <!-- this block of code is the table with every job and the dates -->
+                                    <!-- table with  job and the dates -->
                                     <div class="col d-flex justify-content-center work-history-block">
-                                        <!--inside of this block of code we have (empresas=logo of the compani circular), (span= kind of job done in that particular company), vertical and horizontal lines to conect circles and squares-->
                                         <div class="work-item">
                                             <div class="empresas solid-border logo-jazztel">
                                                 <div class="vertical-line-table vertical-line-regular">
                                                     <span>IT ADSL Technician</span>
                                                 </div>
                                             </div>
-                                            <div class="square-date solid-border"><p>2007-2013</p></div>
+                                            <div class="square-date solid-border">
+                                                <p>2007-2013</p>
+                                            </div>
                                         </div>
                                         <hr class="work-line-conector solid-border">
                                         <div class="work-item work-item-displaced">
-                                            <div class="square-date solid-border"><p>2013-2016</p></div>
+                                            <div class="square-date solid-border">
+                                                <p>2013-2016</p>
+                                            </div>
                                             <div class="empresas solid-border logo-hdc">
                                                 <div class="vertical-line-displaced vertical-line-table">
                                                     <span>Computer Selesman</span>
@@ -126,11 +118,11 @@
                                                     <span>Night Assistant</span>
                                                 </div>
                                             </div>
-                                            <div class="square-date solid-border"><p>2016-2021</p></div>
+                                            <div class="square-date solid-border">
+                                                <p>2016-2021</p>
+                                            </div>
                                         </div>
-                                    
-                                    <!--This part of the code have the block code of history work, when the width is below 500px-->
-                                   
+                                    <!-- mobile (vertical) history work-->
                                         <ul id="time-line" class="work-history-block-mobile">
                                             <li class="time-line-item">
                                                 <p>IT ADSL Technician</p>
@@ -159,27 +151,28 @@
                                 
                             </div>
                         </div>
-                        <!-------------------------------------------------------------------------------------------->
-                        
-                        <!--in this row is the education history box-->
+                        <!--education history box-->
                         <div class="row">
                             <div class="col-12 rounded-divs second-box-content-color spacing-borders-second-box text-center second-box-content-my-story">
                                 <div class="col">
                                     <h3>My Education History</h3>
-                                    <!-- this block of code is the table with every job and the dates -->
+                                    <!-- the table job and  dates -->
                                     <div class="col d-flex justify-content-center work-history-block">
-                                        <!--inside of this block of code we have (empresas=logo of the compani circular), (span= kind of job done in that particular company), vertical and horizontal lines to conect circles and squares-->
                                         <div class="work-item">
                                             <div class="empresas solid-border logo-sarmiento">
                                                 <div class="vertical-line-table vertical-line-regular">
                                                     <span>Politics Oriented Secondary School</span>
                                                 </div>
                                             </div>
-                                            <div class="square-date solid-border"><p>1997-2003</p></div>
+                                            <div class="square-date solid-border">
+                                                <p>1997-2003</p>
+                                            </div>
                                         </div>
                                         <hr class="work-line-conector solid-border">
                                         <div class="work-item work-item-displaced">
-                                            <div class="square-date solid-border"><p>2003-2007</p></div>
+                                            <div class="square-date solid-border">
+                                                <p>2003-2007</p>
+                                            </div>
                                             <div class="empresas solid-border logo-utn">
                                                 <div class="vertical-line-displaced vertical-line-table">
                                                     <span>Electronic Engineering</span>
@@ -193,10 +186,12 @@
                                                     <span>CCNA Cisco Networking</span>
                                                 </div>
                                             </div>
-                                            <div class="square-date solid-border"><p>2006-2007</p></div>
+                                            <div class="square-date solid-border">
+                                                <p>2006-2007</p>
+                                            </div>
                                         </div>
                                     
-                                    <!--This part of the code have the block code of history work, when the width is below 500px-->
+                                    <!--education history (vertical) mobile-->
                                    
                                         <ul id="time-line" class="work-history-block-mobile">
                                             <li class="time-line-item">
@@ -227,92 +222,56 @@
                             </div>
                         </div>
                     </div>
-                    <!-------------------------------------------------------------------------------------------->
                 </div>
-                <!-------------------------------------------------------------------------------------------->
 
-                <!--this is the resent activities box, inside of the col i create a div id=activities-table this div is overflowing the main div, to make the footer and resent activities be in the same space at the bottom of the page-->
+                <!--resent activities box-->
                 <div class="col-12 col-sm-4 middle-section rounded-divs spacing-borders recent-activity-property">
-                    <!-- the class overflow-recent-activity make this div be long enough to have inside all the text and be at the same height than the footer -->
                     <div class="col-12 col-sm-4 middle-section rounded-divs recent-activity-color overflow-recent-activity">
                       <div id="activities-table">
                           <h3>Recent Activities</h3>
                           <div class="activity-item">
-                            <h5>
-                                Debuging MS1
-                            </h5>
-                            <p>
-                                Currently correcting bugs of the MS1 project for Code Institute
-                            </p>
+                            <h5>Debuging MS1</h5>
+                            <p>Currently correcting bugs of the MS1 project for Code Institute</p>
                           </div>
                           <div class="activity-item">
-                            <h5>
-                                Studing bootstrap
-                            </h5>
-                            <p>
-                                Studying bootstrap, grids, styling, and the whole system of columns and rows that it offers
-                            </p>
+                            <h5>Studing bootstrap</h5>
+                            <p>Studying bootstrap, grids, styling, and the whole system of columns and rows that it offers</p>
                           </div>
                           <div class="activity-item">
-                            <h5>
-                                Studing HTML
-                            </h5>
-                            <p>
-                                Studying HTML 5 from the code institute learning page, and preparing my MS1.
-                            </p>
+                            <h5>Studing HTML</h5>
+                            <p>Studying HTML 5 from the code institute learning page, and preparing my MS1.</p>
                           </div>
                           <div class="activity-item">
-                            <h5>
-                                Working in RGA
-                            </h5>
-                            <p>
-                                Making a web page for the company RGA refrigeración with html and css
-                            </p>
+                            <h5>Working in RGA</h5>
+                            <p>Making a web page for the company RGA refrigeración with html and css</p>
                           </div>
-                         
                           <div class="activity-item">
-                            <h5>
-                                Working in Ambusa
-                            </h5>
-                            <p>
-                                Designing for ambusa a brand of bracelets and jewelry, with html 5 and css, implementation of a bit of bootstrap.
-                            </p>
+                            <h5>Working in Ambusa</h5>
+                            <p>Designing for ambusa a brand of bracelets and jewelry, with html 5 and css, implementation of a bit of bootstrap.</p>
                           </div>
-                         
                           <div class="activity-item">
-                            <h5>
-                                Studing CSS
-                            </h5>
-                            <p>
-                                Studying css in greater depth, with the help of the CSS for Dummis book, which I found very interesting
-                            </p>
+                            <h5>Studing CSS</h5>
+                            <p>Studying css in greater depth, with the help of the CSS for Dummis book, which I found very interesting</p>
                           </div>
-                          
                           <div class="activity-item">
-                            <h5>
-                                Studing SQL
-                            </h5>
-                            <p>
-                                Reading SQL how databases work, what they are for, and how data and different types of unions are related.
-                            </p>
+                            <h5>Studing SQL</h5>
+                            <p>Reading SQL how databases work, what they are for, and how data and different types of unions are related.</p>
                           </div>
-                          
                       </div>
                     </div>
-                    <!-------------------------------------------------------------------------------------------->
                 </div>
             </div>
         </div>
     </section>
 
     <footer>
-         <!--in this container we have two diferent divs with list inside, one for LINKS and the other one for SOCIAL both change depending the wide at 768px-->
+         <!--LINKS and SOCIAL -->
         <div class="container">
             <div class="row ">
                 <div class="col-8 bg-footer-color d-flex footer-border rounded-divs footer-col mobile-width-ajustment align-items-center">
                     <div class="container">
                         <div class="row ">
-                            <!-- social col with class footer-layout-transformation which change at 768px -->
+                            <!-- social col -->
                             <div class="col-sm-12 col-md-6 uppercase d-flex justify-content-center">
                                 <div class="contact-social-divs social">
                                     <h4>social</h4>
@@ -344,9 +303,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <!-------------------------------------------------------------------------------------------->
-
-                            <!-- LINKS col with class footer-layout-transformation which change at 768px -->
+                            <!-- LINKS col  -->
                             <div class="col-sm-12 col-md-6 uppercase d-flex justify-content-center">
                                 <div class="contact-social-divs social">
                                     <h4>links</h4>
@@ -358,7 +315,6 @@
                                     </ul>
                                 </div>
                             </div>
-                            <!-------------------------------------------------------------------------------------------->
                         </div>
                     </div>
                 </div>
