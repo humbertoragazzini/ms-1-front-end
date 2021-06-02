@@ -245,9 +245,6 @@ The site its made to be responsive between 360p to upto 1200px:
 
 ## Credits
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
-
-You can break the credits section up into Content and Media, depending on what you have included in your project.
 
 ### Content
 
@@ -262,6 +259,12 @@ You can break the credits section up into Content and Media, depending on what y
 
 **The fonts**: 
 - from google fonts, this link is from learning page in code institute.
+
+**Navmenu**: 
+- I take this from code institute learning videos, and make some modifications.
+
+**Progress bars**:
+- From bootstrap web page in the progress bar section.
 
 
 ### Media
