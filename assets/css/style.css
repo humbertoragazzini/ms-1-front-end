@@ -117,6 +117,9 @@ ul {
             .recent-activity-color{
                 background-color: #f2cc8f;
             }
+            .type-of-data p{
+                font-weight: 600;
+            }
             
         /* ------ */
         
@@ -234,7 +237,7 @@ ul {
             #my-main-details{
                 list-style: none;
                 font-weight: 500;
-                color: rgba(0, 0, 0, 0.541);
+                color: black;
             }
             /*this overflow rules make the recent activity have the enogh height to be next to the footer in the bottom of the webpage, and align the text to*/
             .overflow-recent-activity{
@@ -461,7 +464,6 @@ ul {
             .value-of-data {
                 position: relative;
                 left: -7px;
-                font-weight: 300;
             }
             /*this add some style in the type of data of the personal info mobile ul*/
             .type-of-data{
