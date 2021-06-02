@@ -97,13 +97,13 @@ My Story page:
 - [My Story Tablet Landscape View](design/wireframes/my-story-view/my-story-tablet-landscape-view.png)
 - [My Story Tablet Portrait View](design/wireframes/my-story-view/my-story-tablet-portrait-view.png)
 
-My Story page:
+About Me page:
 - [About Me Desktop View](design/wireframes/about-me-view/about-me-desktop-view.png)
 - [About Me Mobile View](design/wireframes/about-me-view/about-me-mobile-view.png)
 - [About Me Tablet Landscape View](design/wireframes/about-me-view/about-me-tablet-landscape-view.png)
 - [About Me Tablet Portrait View](design/wireframes/about-me-view/about-me-tablet-portrait-view.png)
 
-My Story page:
+Contact page:
 - [Contact Desktop View](design/wireframes/contact-view/contact-desktop-view.png)
 - [Contact Mobile View](design/wireframes/contact-view/contact-mobile-view.png)
 - [Contact Tablet Landscape View](design/wireframes/contact-view/contact-tablet-landscape-view.png)
