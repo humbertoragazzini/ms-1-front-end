@@ -225,14 +225,14 @@ The site its made to be responsive between 360p to upto 1200px:
     - Tested:
         1) Navbar ( all links: home, my story,about me, contact )
             - bug ( button was far to the right / fixed by css position )
-                ```
+                ```CSS
                     #menu-buttom{
                     float: right;
                     right: 40px;
                     }
                 ```
             - bug ( bug in firefox navbar items without divs looks displaced to the top / fixed wrapping i and p element inside of a div)
-                ```
+                ```HTML
                     <ul class="ul-nav-bar">
                         <li>
                             <a href="index.html">
@@ -268,6 +268,53 @@ The site its made to be responsive between 360p to upto 1200px:
                         </li>
                     </ul>
                 ```
+                - bug ( bug in safari/chrome/firefox navbar looks to the right side, fixed added class line-div-vertical in divs / removed vertical-line from il)
+                ```HTML
+                    <ul class="ul-nav-bar">
+                        <li>
+                            <a href="index.html">
+                                <div>
+                                    <i class="fas fa-home icon-center icon-font"></i>
+                                    <p class="nav-bar-titles uppercase active-element-navbar">home</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="vertical-line">
+                            <a href="mystory.html">
+                                <div class="line-div-vertical">  
+                                    <i class="fas fa-landmark icon-center icon-font"></i>
+                                    <p class="nav-bar-titles uppercase">my story</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="vertical-line">
+                            <a href="aboutme.html">
+                                <div class="line-div-vertical">
+                                    <i class="fas fa-male icon-center icon-font"></i>
+                                    <p class="nav-bar-titles uppercase">about me</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="vertical-line">
+                            <a href="contact.html">
+                                <div class="line-div-vertical">
+                                    <i class="fas fa-comments icon-center icon-font"></i>
+                                    <p class="nav-bar-titles uppercase">contact</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                ```
+                Css rules added
+                ```CSS
+                    .line-div-vertical{
+                        border-left: solid 2px black;
+                    }
+                    .ul-nav-bar div{
+                        width: 160px;
+                        padding: 5px 25px;
+                    }
+                ```                
         2) Profile Image: position, size, all correct from 360px to 1200px
         3) personal info: position, size, style, all correct from 360px to 1200px
         4) my core competences: position, size, style, style, all correct from 360px to 1200px
@@ -305,10 +352,10 @@ The site its made to be responsive between 360p to upto 1200px:
                 ```
 * My Story:
     - Tested:
-        - Navbar ( all links: home, my story,about me, contact).
+        1) Navbar ( all links: home, my story,about me, contact).
             * _The navbar mobile was affected for the same bug than home page._
             * _The navbar items was affected for the same bug than home page._
-        - Profile Image: position, size, all correct from 360px to 1200px.
+        2) My Story: position, size, all correct from 360px to 1200px.
         - personal info: position, size, style, all correct from 360px to 1200px.
         - my core competences: position, size, style, style, all correct from 360px to 1200px.
         - footer: links, icons, social and download cv, style, all correct from 360px to 1200px.
