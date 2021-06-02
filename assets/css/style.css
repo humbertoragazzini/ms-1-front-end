@@ -723,6 +723,11 @@ ul {
             height: 140px;
         }
 
+        #button-send-request:focus{
+            color: white;
+            background-color: #3d405b;
+        }
+
         textarea{
             display: block;
             margin: 15px 17%;

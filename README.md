@@ -234,15 +234,29 @@ The site its made to be responsive between 360p to upto 1200px:
 
 * I did not find any errors, the website was tested on the following devices::
     - Samsung s9+ (Android) Ver. 
-        - Web Browsers: EDGE, Chrome, Mozilla, Opera.
+        - Web Browsers: 
+            - EDGE: Versión 91.0.864.37
+            - Chrome: Versión 90.0.4430.212
+            - Mozilla: 88.0.1 (64-bit)
+            - Opera: Opera 75 Release date	2021-03-24
     - Iphone 12 Pro (IOS) ver.
-        - Web Browsers: Zafari.
-    - Galaxy Tab S4 (Android) Ver.
-        - Web Browsers: EDGE, Chrome, Mozilla, Opera.
-    - Pc (windows 10) Ver.
-        - Web Browsers: EDGE, Chrome, Mozilla.
+        - Web Browsers: 
+            - Zafari:
+    - Galaxy Tab S4 (Android) Ver.10 - 4.4.205-19646842
+        - Web Browsers: 
+            - EDGE: ver.46.04.4.5157
+            - Chrome: ver.91.0.4472.77
+            - Mozilla: ver.88.1.3
+            - Opera: ver.63.3.3116.58675
+    - Pc (windows 10) Ver.20H2 - 19042.985
+        - Web Browsers: 
+            - EDGE: Versión 91.0.864.37
+            - Chrome: Versión 90.0.4430.212
+            - Mozilla: 88.0.1 (64-bit)
+            - Opera: Opera 75 Release date	2021-03-24
     - PC (Linux Ubuntu) Ver.
-        - Web Browsers: Mozilla. 
+        - Web Browsers: 
+            - Mozilla:  
 
 
 # **Frameworks and Tecnologies**
