@@ -6,9 +6,9 @@ Welcome to "my resume", this website was designed with the purpose of being able
 
 In order to access the website and visit it, you can do it by the following github link: [My Resume Project](https://humbertoragazzini.github.io/ms-1-front-end/)
 
-# UX
+# **UX**
 
-## Strategy
+## **Strategy**
 
 
 ### I divided the strategy into simple points that I am going to name below:
@@ -21,7 +21,7 @@ In order to access the website and visit it, you can do it by the following gith
 
 * **Users Goal**: To be able to see what my skills are, what kind or style of web programmer I am, download my CV if he needs it, but mainly to be able to have an overview of me as a web developer and in this way be able to make the decision to contact me or not.
 
-## Scope
+## **Scope**
 
 In my strategy one of the points was to show with the first visit that I am capable as a web developer, and that access to information is fast and organized, the following feactures that are limited to my knowledge:
 
@@ -43,7 +43,7 @@ In my strategy one of the points was to show with the first visit that I am capa
     * A data base with all the contacts with the possibility to filter and organize by type (remote or not), place (can be by country, state or city), time(when the contact take place), Why (a project, job).
 
 
-## Structure
+## **Structure**
 
 In this section I am going to outline the basic structure, and how I am going to present all the information.
 
@@ -74,7 +74,7 @@ In this section I am going to outline the basic structure, and how I am going to
 
 
 
-## Skeleton
+## **Skeleton**
 
 In this part of the project i start building wireframes in balsamic of the structure to see how this menus and tiles (squares with more specific information) looks like.
 
@@ -109,7 +109,7 @@ Contact page:
 - [Contact Tablet Landscape View](design/wireframes/contact-view/contact-tablet-landscape-view.png)
 - [Contact Tablet Portrait View](design/wireframes/contact-view/contact-tablet-portrait-view.png)
 
-## Surface
+## **Surface**
 
 In this section all the html and css coding start, in the skeleton surfave i try some color taken from [coolors](https://www.coolors.co), this site was provided by my mentor.
 
@@ -147,14 +147,14 @@ Between the 1080p and 768p resolution we have almost the 50% of the users, if we
 
 In this case basically I adjust the desktop target resolution to 768p and a width max limit of 1200p and a body max limit to 1080p.
 
-### Navbar
+### *Navbar**
 
 The navbar is made for 4 main buttons, Home, My Story, About ME, Contact, each of this buttons show a line under beneath whe you are in that particular seccion.
 If the button is hover by the mouse its became in a different color to denotate that you are going to go that seccion.
 
 ![the navbar gif](design/animation/surface/navbar.gif)
 
-### Middle Section
+### **Middle Section**
 
 - In the middle seccion we can see betwen 1 to 3 main tiles (squares) the column (Recent activities) is presented in every single seccion (the contact seccion its the only one without this column).
 This column will show all the recent activities such a project, jobs.
@@ -166,7 +166,7 @@ This column will show all the recent activities such a project, jobs.
     
     ![The full web gif](design/animation/surface/myresume.gif)
 
-### The footer
+### **The footer**
 
 The footer its full responsive to, and have links to diferent parts of the site, and a download CV link, just in case some one need a more traditional cv format.
 The social column have links to the diferent social media websites.
@@ -174,9 +174,9 @@ The social column have links to the diferent social media websites.
 ![the navbar gif](design/animation/surface/footer.gif)
 
 
-## Testing
+## **Testing**
 
-### Responsive
+### **Responsive**
     
 The site its made to be responsive between 360p to upto 1200px:
     
@@ -190,7 +190,7 @@ The site its made to be responsive between 360p to upto 1200px:
    
     ![The full web gif](design/animation/surface/responsive-myresume.gif)
 
-### Validators
+### **Validators**
 
 * I did the validation for every single page, this are the result:
     - Index validation: 
@@ -213,12 +213,27 @@ The site its made to be responsive between 360p to upto 1200px:
     ![contact validation](design/validator/contact-validation.png)
 
 
+* CSS validation
+
+    -Css validation result:
+
+    ![style.css validation](design/validator/css-validation.png)
 
 
 
+### **Unfixed Bugs**
 
-
-
+* I did not find any errors, the website was tested on the following devices::
+    - Samsung s9+ (Android) Ver. 
+        - Web Browsers: EDGE, Chrome, Mozilla, Opera.
+    - Iphone 12 Pro (IOS) ver.
+        - Web Browsers: Zafari.
+    - Galaxy Tab S4 (Android) Ver.
+        - Web Browsers: EDGE, Chrome, Mozilla, Opera.
+    - Pc (windows 10) Ver.
+        - Web Browsers: EDGE, Chrome, Mozilla.
+    - PC (Linux Ubuntu) Ver.
+        - Web Browsers: Mozilla. 
 
 
 
