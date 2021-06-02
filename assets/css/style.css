@@ -138,6 +138,7 @@ ul {
                 position: relative;
                 margin-top: 15px;
                 font-size: 15px;
+                padding-left: 0px;
             }
             /*this rule make li be inline-block element to be one next to other adding some margin to make them looks better, this rule make the navbar be horizontal*/
             .ul-nav-bar li{
