@@ -53,7 +53,7 @@ In this section I am going to outline the basic structure, and how I am going to
     * skills
     * How to contact me?
 
-* **How i present this information**: yo pense que la mejor manera de presentar toda esta informacion es en grupos.
+* **How i present this information**: I thought that the best way to present all this information is in groups.
     * The main group will be our tabs, home, my story, about me and contact.
     * The secundary group will be the tiles (squares with information in it), this tiles will show more specific information about, skills, activities, studies.
         * **Home**:
