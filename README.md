@@ -147,12 +147,6 @@ Between the 1080p and 768p resolution we have almost the 50% of the users, if we
 
 In this case basically I adjust the desktop target resolution to 768p and a width max limit of 1200p and a body max limit to 1080p.
 
-In the next image we can see the web site in a desktop view and in a mobile view, the third image I apply some diferent resolution to show who the website behaves.
-
-----------------
-----------------
-----------------
-
 ### Navbar
 
 The navbar is made for 4 main buttons, Home, My Story, About ME, Contact, each of this buttons show a line under beneath whe you are in that particular seccion.
@@ -162,11 +156,15 @@ If the button is hover by the mouse its became in a different color to denotate 
 
 ### Middle Section
 
-In the middle seccion we can see betwen 1 to 3 main tiles (squares) the column (Recent activities) is presented in every single seccion (the contact seccion its the only one without this column).
+- In the middle seccion we can see betwen 1 to 3 main tiles (squares) the column (Recent activities) is presented in every single seccion (the contact seccion its the only one without this column).
 This column will show all the recent activities such a project, jobs.
-In the Story seccion we have 2 main tails, one with all the jobs by dates simple to read. Below we have the studies history line, both are full responsive, and change from horizontal layout (desktop or resolution wider than 500px) to vertical layout.
-Inside of about my, we can check all the skills, coding skills and other skills, every skill have his own porogress bar.
-The contact seccion have a contact form which is not working at the moument (do not send the request to a email)
+- In the Story seccion we have 2 main tails, one with all the jobs by dates simple to read. Below we have the studies history line, both are full responsive, and change from horizontal layout (desktop or resolution wider than 500px) to vertical layout.
+- Inside of about my, we can check all the skills, coding skills and other skills, every skill have his own porogress bar.
+- The contact seccion have a contact form which is not working at the moument (do not send the request to a email)
+- Image of the completed web site:
+    
+    
+    ![The full web gif](design/animation/surface/myresume.gif)
 
 ### The footer
 
@@ -176,7 +174,51 @@ The social column have links to the diferent social media websites.
 ![the navbar gif](design/animation/surface/footer.gif)
 
 
+## Testing
 
+### Responsive
+    
+The site its made to be responsive between 360p to upto 1200px:
+    
+* Image of the mobile web site: 
+   
+   
+    ![The full web gif](design/animation/surface/mobile-myresume.gif)
+    
+* Image to show the responsive design in the web site: 
+   
+   
+    ![The full web gif](design/animation/surface/responsive-myresume.gif)
+
+### Validators
+
+* I did the validation for every single page, this are the result:
+    - Index validation: 
+    ![index validation](design/validator/index-validation.png)
+
+
+    - My Story validation:
+    ![my story validation](design/validator/mystory-validation.png)
+
+
+    - About Me validation:
+    ![about me validation](design/validator/aboutme-validation.png)
+
+
+    - Contact validation:
+    ![contact validation](design/validator/contact-validation.png)
+
+You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+
+If this section grows too long, you may want to split it off into a separate file and link to it from here.
+
+Validator Testing
+HTML
+No errors were returned when passing through the official W3C validator
+CSS
+No errors were found when passing through the official (Jigsaw) validator
+Unfixed Bugs
+You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
 
 
 

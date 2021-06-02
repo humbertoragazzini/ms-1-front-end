@@ -674,10 +674,10 @@ ul {
                    display: block;
                    visibility: visible;
                 }
-                #time-line{
+                .time-line{
                    margin-top: 45px;
                 }
-                #time-line li{
+                .time-line li{
                     border-left: solid 3px black;
                     width: 134px;
                     height: 150px;
@@ -696,7 +696,7 @@ ul {
                     right: 23px;
                     top: 24px;
                 }
-                #time-line li div{
+                .time-line li div{
                     position: relative;
                     left: 20px;
                     bottom: 20px;
@@ -708,20 +708,20 @@ ul {
                     font-weight: 600;
                     bottom: 23px;
                 }
-                #time-line #time-line-item-displaced{
+                .time-line .time-line-item-displaced{
                     left: -91px;
                     border-left: none;
                     border-right: solid 3px black;
                 }
-                #time-line #time-line-item-displaced p{
+                .time-line .time-line-item-displaced p{
                     margin-left: 0px;
                     font-weight: 600;
                 }
-                #time-line #time-line-item-displaced hr{
+                .time-line .time-line-item-displaced hr{
                     right: 0px;
                     left: 88px;
                 }
-                #time-line #time-line-item-displaced div{
+                .time-line .time-line-item-displaced div{
                     left: 20px;
                 }
 
