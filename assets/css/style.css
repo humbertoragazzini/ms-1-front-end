@@ -379,6 +379,7 @@ ul {
             /*this rule make the nav button (dropdown) be in the rigth side of the page, when is in mobile mode*/
             #menu-buttom{
                 float: right;
+                right: 40px;
             }
             /*this rule make the desktop navbar disapear, its hidde the desktop navbar*/
             .ul-nav-bar{

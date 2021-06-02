@@ -222,13 +222,79 @@ The site its made to be responsive between 360p to upto 1200px:
 ## **Testing Web Site**
 
 * Home Page:
-    - 
+    - Tested:
+        1) Navbar ( all links: home, my story,about me, contact )
+            - bug ( button was far to the right / fixed by css position )
+                ```
+                    #menu-buttom{
+                    float: right;
+                    right: 40px;
+                    }
+                ```
+        2) Profile Image: position, size, all correct from 360px to 1200px
+        3) personal info: position, size, style, all correct from 360px to 1200px
+        4) my core competences: position, size, style, style, all correct from 360px to 1200px
+        5) footer: 
+            - links: 
+            - Bug (social links do not work)
+            - code (Added "https://" to all links and target="_blank"), icons, social and download cv, style, all correct from 360px to 1200px
+                ```Fix
+                    <ul class="footer-layout-transformation social-footer">
+                        <li>
+                            <a href="https://www.facebook.com" target="_blank">
+                                <i class="fab fa-facebook-square"></i>
+                                    <span>facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com" target="_blank">
+                                <i class="fab fa-instagram-square"></i>
+                                <span>instagram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.twitter.com" target="_blank">
+                                <i class="fab fa-twitter-square"></i>
+                                <span>twitter</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com" target="_blank">
+                                <i class="fab fa-youtube-square"></i>
+                                    <span>youtube</span>
+                                    </a>
+                        </li>
+                    </ul>
+                ```
 * My Story:
-    -
+    - Tested:
+        - Navbar ( all links: home, my story,about me, contact).
+            * _The navbar here was affected for the same bug than home page._
+        - Profile Image: position, size, all correct from 360px to 1200px.
+        - personal info: position, size, style, all correct from 360px to 1200px.
+        - my core competences: position, size, style, style, all correct from 360px to 1200px.
+        - footer: links, icons, social and download cv, style, all correct from 360px to 1200px.
+            * _The links and social here was affected for the same bug than home page._
+            
 * About Me:
-    -
+    - Tested:
+        - Navbar ( all links: home, my story,about me, contact).
+            * _The navbar here was affected for the same bug than home page._
+        - Profile Image: position, size, all correct from 360px to 1200px.
+        - personal info: position, size, style, all correct from 360px to 1200px.
+        - my core competences: position, size, style, style, all correct from 360px to 1200px.
+        - footer: links, icons, social and download cv, style, all correct from 360px to 1200px.
+            * _The links and social here was affected for the same bug than home page._
+            
 * Contact:
-    -
+    - Tested:
+        - Navbar ( all links: home, my story,about me, contact )
+            * _The navbar here was affected for the same bug than home page._
+        - Profile Image: position, size, all correct from 360px to 1200px.
+        - personal info: position, size, style, all correct from 360px to 1200px.
+        - my core competences: position, size, style, style, all correct from 360px to 1200px.
+        - footer: links, icons, social and download cv, style, all correct from 360px to 1200px.
+            * _The links and social here was affected for the same bug than home page._
 
 ## **Unfixed Bugs**
 
