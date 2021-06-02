@@ -174,9 +174,9 @@ The social column have links to the diferent social media websites.
 ![the navbar gif](design/animation/surface/footer.gif)
 
 
-## **Testing**
+# **Testing**
 
-### **Responsive**
+## **Responsive**
     
 The site its made to be responsive between 360p to upto 1200px:
     
@@ -190,7 +190,7 @@ The site its made to be responsive between 360p to upto 1200px:
    
     ![The full web gif](design/animation/surface/responsive-myresume.gif)
 
-### **Validators**
+## **Validators**
 
 * I did the validation for every single page, this are the result:
     - Index validation: 
@@ -219,9 +219,18 @@ The site its made to be responsive between 360p to upto 1200px:
 
     ![style.css validation](design/validator/css-validation.png)
 
+## **Testing Web Site**
 
+* Home Page:
+    - 
+* My Story:
+    -
+* About Me:
+    -
+* Contact:
+    -
 
-### **Unfixed Bugs**
+## **Unfixed Bugs**
 
 * I did not find any errors, the website was tested on the following devices::
     - Samsung s9+ (Android) Ver. 
@@ -236,44 +245,72 @@ The site its made to be responsive between 360p to upto 1200px:
         - Web Browsers: Mozilla. 
 
 
+# **Frameworks and Tecnologies**
 
-## Deployment
+- HTML5
+
+- CSS
+
+- BOOTSTRAP 5 - _[bootstrap](https://getbootstrap.com/)_.
+
+- GITPOD - _[gimp photo editor](https://imagen.online-convert.com/es/convertir/mp4-a-gif)_.
+
+- GITHUB - _[github](https://github.com/)_.
+
+- W3C VALIDATOR - Validator html and css: _[w3c validator](https://validator.w3.org/)_.
+
+- GIMP - GIMP photo editor: _[gimp photo editor](https://www.gimp.org/)_.
+
+- ACTION SCREEN RECORDER** - Screen recorder: _[ACTION](https://mirillis.com/es/productos/action-grabacion-de-pantalla-y-videojuegos.html)_. 
+
+- ONLINE-CONVERTER - Video to gif: _[Online converter](https://imagen.online-convert.com/es/convertir/mp4-a-gif)_.
+
+- GOOGLE FONT - Google fonts: _[google font](https://fonts.google.com/)_.
 
 
-### The site was deployed to GitHub pages. The steps to deploy are as follows:
+# **Deployment**
 
 
-## Credits
+## **The site was deployed to GitHub pages. The steps to deploy are as follows:**
 
 
-### Content
+# **Credits**
 
-**The text**: 
-- I write all the text in the web site
 
-**The form**: 
+## **Content**
+
+**The text:**
+- I write all the text in the web site, my mentor read it an notice some spelling problems, my wife help me to fixed it. (Thanks to Yamile Simes who help me with all the spellings errors)
+
+**The form:** 
 - part of the code was taken from the oficcial bootstrap website and from the code institute learning page.
+_[bootstrap form address](https://getbootstrap.com/docs/5.0/forms/overview/)_.
 
-**The icons**: 
+**The icons:** 
 - the icon are from font awsome, and this link was provided by the learning page in code institute.
+_[font awesome web site](https://fontawesome.com/)_.
 
-**The fonts**: 
+**The fonts:**  
 - from google fonts, this link is from learning page in code institute.
 
-**Navmenu**: 
+**Navmenu (desktop):**
 - I take this from code institute learning videos, and make some modifications.
 
-**Progress bars**:
-- From bootstrap web page in the progress bar section.
+**Navmenu (mobile):** 
+- Taken from bootstrap dropdown and navar menus.
+_[navbar bootstrap](https://getbootstrap.com/docs/5.0/components/navbar/)_ / 
+_[dropdown menu bootstrap](https://getbootstrap.com/docs/5.0/components/dropdowns/)_.
 
+**Progress bars:** 
+- From bootstrap web page in the progress bar section
+_[progress bars bootstrap](https://getbootstrap.com/docs/5.0/components/progress/)_.
 
-### Media
+## **Media**
 
 **Background**: made with GIMP on windows.
-- GIMP photo editor: _[gimp photo editor](https://www.gimp.org/)_.
 
 **Colors**: 
-- the colors of the enterely website was taken from [coolors](https://www.coolors.co).
+- the colors of the enterely website was taken from _[coolors](https://www.coolors.co)_.
 - Thanks to my mentor for provide me with this link.
 
 
