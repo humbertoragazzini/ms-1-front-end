@@ -158,17 +158,11 @@ ul {
             .line-div-vertical{
                 border-left: solid 2px black;
             }
-            /*this rule add a small vertical line between the element in the navbar*/
-            /*.vertical-line{
-                border-left: solid 2px black;
-            }*/
 
             /*this rule add style to the icons in the navbar, also add the width and height to make the icon be separated from the <p>*/
             .icon-font{
-                position: relative;
                 font-size: 20px;
                 width: 1.5em;
-                height: 1.2em;
             }
             /* this fix the height of the header */
             .main-header{
@@ -179,7 +173,6 @@ ul {
                 float: right;
                 position: relative;
                 left: -5px;
-                top: -3px;
             }
             /* this rule make the mobile header (navbar) hidden, because its only be show when the width screen si less than 768px */
             #mobile-header{
