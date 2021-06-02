@@ -237,6 +237,41 @@ The site its made to be responsive between 360p to upto 1200px:
 
 
 
+## Deployment
+
+
+### The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+
+## Credits
+
+In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
+
+You can break the credits section up into Content and Media, depending on what you have included in your project.
+
+### Content
+
+**The text**: 
+- I write all the text in the web site
+
+**The form**: 
+- part of the code was taken from the oficcial bootstrap website and from the code institute learning page.
+
+**The icons**: 
+- the icon are from font awsome, and this link was provided by the learning page in code institute.
+
+**The fonts**: 
+- from google fonts, this link is from learning page in code institute.
+
+
+### Media
+
+**Background**: made with GIMP on windows.
+- GIMP photo editor: _[gimp photo editor](https://www.gimp.org/)_.
+
+**Colors**: 
+- the colors of the enterely website was taken from [coolors](https://www.coolors.co).
+- Thanks to my mentor for provide me with this link.
 
 
 
