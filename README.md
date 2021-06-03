@@ -279,7 +279,7 @@ The site its made to be responsive between 360p to upto 1200px:
                                 </div>
                             </a>
                         </li>
-                        <li class="vertical-line">
+                        <li>
                             <a href="mystory.html">
                                 <div class="line-div-vertical">  
                                     <i class="fas fa-landmark icon-center icon-font"></i>
@@ -287,7 +287,7 @@ The site its made to be responsive between 360p to upto 1200px:
                                 </div>
                             </a>
                         </li>
-                        <li class="vertical-line">
+                        <li>
                             <a href="aboutme.html">
                                 <div class="line-div-vertical">
                                     <i class="fas fa-male icon-center icon-font"></i>
@@ -295,7 +295,7 @@ The site its made to be responsive between 360p to upto 1200px:
                                 </div>
                             </a>
                         </li>
-                        <li class="vertical-line">
+                        <li>
                             <a href="contact.html">
                                 <div class="line-div-vertical">
                                     <i class="fas fa-comments icon-center icon-font"></i>
@@ -392,9 +392,9 @@ The site its made to be responsive between 360p to upto 1200px:
             - Chrome: Versión 90.0.4430.212
             - Mozilla: 88.0.1 (64-bit)
             - Opera: Opera 75 Release date	2021-03-24
-    - Iphone 12 Pro (IOS) ver.
+    - Iphone 12 Pro (IOS) ver.14.6
         - Web Browsers: 
-            - Zafari:
+            - Zafari: ver. 14
     - Galaxy Tab S4 (Android) Ver.10 - 4.4.205-19646842
         - Web Browsers: 
             - EDGE: ver.46.04.4.5157
@@ -407,7 +407,7 @@ The site its made to be responsive between 360p to upto 1200px:
             - Chrome: Versión 90.0.4430.212
             - Mozilla: 88.0.1 (64-bit)
             - Opera: Opera 75 Release date	2021-03-24
-    - PC (Linux Ubuntu) Ver.
+    - PC (Linux Ubuntu) Ver. 
         - Web Browsers: 
             - Mozilla:  
 
@@ -437,8 +437,25 @@ The site its made to be responsive between 360p to upto 1200px:
 
 # **Deployment**
 
+## To deploy my project:
 
-## **The site was deployed to GitHub pages. The steps to deploy are as follows:**
+1) Go to my github main page and login in.
+
+2) Select the repository, in this case :[Git Hub Repository](https://github.com/humbertoragazzini/ms-1-front-end).
+    
+3) In this tab select settings.
+    
+4) Click in pages in the option menu.
+    
+5) Select in source branch master.
+    
+6) Save, the project is deployed in github pages in the following link:[Project-My-Resume](https://humbertoragazzini.github.io/ms-1-front-end/)
+
+![deploy image](design/deploy/deploy.gif)
+
+## **To clone my repository in github**
+
+1) With you account loged go to my repository: [Git Hub Repository](https://github.com/humbertoragazzini/ms-1-front-end).
 
 
 # **Credits**
