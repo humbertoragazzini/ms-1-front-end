@@ -1,10 +1,9 @@
 # My Resume Milestone Project 1 - Humberto Ragazzini
 
-Welcome to "my resume", this website was designed with the purpose of being able to communicate to people who are interested in hiring me, either for a particular project or to work as a full-time employee, for this reason I was added to the website a page where you can fill in a very simple form to be able to contact me.
+welcome to ‘’my resume’’, this website was designed with the purpose of establishing contact with those entities that are interested in my profile in an organized, efficient and simple way. either for a job opportunity or for a particular project.
+For this reason, I have added a section to the website page where you can complete a simple form to contact me.
 
-
-
-In order to access the website and visit it, you can do it by the following github link: [My Resume Project](https://humbertoragazzini.github.io/ms-1-front-end/)
+In order to access the website and visit it, you can do it by the following GitHub link: [My Resume Project](https://humbertoragazzini.github.io/ms-1-front-end/)
 
 # **UX**
 
@@ -13,61 +12,62 @@ In order to access the website and visit it, you can do it by the following gith
 
 ### I divided the strategy into simple points that I am going to name below:
 
-* **My idea**: A website where that person or company who is looking for a web developer can find my information in a simple and organized way.
+* **My idea**: is create a website where that person or company who is looking for a Web developer can access to my information in a simple way.
 
-* **Show Skill in The First Visit**: I would like that when entering for the first time, that person or company is able to see my skills as a web programmer or as a person, without having to name them explicitly.
+* **Show Skill in The First Visit**: : Entering the site for the first time, I would like the user to be able to verify my completed skills without having to explicitly name them.
 
-* **My goal**: Taking aside the obviousness of finding a company or a person who needs my services, the main goal of my website is to be able to provide that person not only with a view of my skills, my work history or studies, but also They can see what the projects I did, what I am doing, or what I am going to do in the future.
+* **My goal**: Easy way to see what my skills are, what type and style of programmer I am. You can download my CV, if necessary, but mainly you will have an overview of me as a web developer, in this way you will be given useful information in case you want to contact me or not.
 
 * **Users Goal**: To be able to see what my skills are, what kind or style of web programmer I am, download my CV if he needs it, but mainly to be able to have an overview of me as a web developer and in this way be able to make the decision to contact me or not.
 
 ## **Scope**
 
-In my strategy one of the points was to show with the first visit that I am capable as a web developer, and that access to information is fast and organized, the following feactures that are limited to my knowledge:
+*	In my ''strategy'' one of the main points is to show you with the first visit my capacities, in a fast and organized way, the following features are limited to my knowledge:
 
-* **The main feactures**: the possibility of navigating between the following options to find as quick as possible the information needed:
-    * An overview where you can see my main data (personal information) and the more general skills
-    * A summary about the places where I work as well as where I studied)
-    * A list in more detail my skills and the progress of each of them
-    * A way to contact me either for a project or for a job opportunity
+* **The main feactures**: the possibility of navigating between the following options to find quick as possible the information needed:
+    * An overview where you can see my main data (personal info) and general skills.
+    * A summary about the places I have worked and studied.
+    * A list in more detail my skills and the progress of each of them.
+    * A way to contact me for inquiries or job opportunities.
 
-* **Full mobile device compatibility**: The inclusion of being able to navigate the site from any device, and that accessing from a mobile is not a limitation
+* **Full mobile device compatibility**: The inclusion of being able to navigate the site from any device, including access from a mobile.
 
-* **Tiles**: for the presentation of more organized information the inclusion of tiles, where each one will have a role within the page.
+* **Tiles**: Efficient and orderly presentation of the information, inclusion of tiles, where each one has a role on the page.
 
 * **Desired functions for the future**: 
     * A section with the portfolio of all the projects where I play a role.
-    * Add the possibility to recive all the contact request to a whatsapp account (for quicker respond)
+    * Add the possibility of receiving all the contact request to a WhatsApp account (for quicker respond)
     * Implement multi-language options
-    * Implement High Contrast theme, and Dark theme in the web site.
-    * A data base with all the contacts with the possibility to filter and organize by type (remote or not), place (can be by country, state or city), time(when the contact take place), Why (a project, job).
+    * Execute High Contrast theme, and Dark theme in the web site.
+    * A data base with all the contacts with the possibility to filter and organize by type (remote or not), place (can be by country, state or city), time (when the contact take place), and the subject or reason (project or job).
 
 
 ## **Structure**
 
-In this section I am going to outline the basic structure, and how I am going to present all the information.
+In this section the basic structure will be outlined, and how the information will be presented.
 
-* **What a visiter would like to see the first time**:
-    * How i am? 
+*	**What a guest would like to see the first time:**
+    * Who I am
     * Personal details
-    * skills
-    * How to contact me?
+    * Skills
+    * How to contact me
 
-* **How i present this information**: I thought that the best way to present all this information is in groups.
+
+*	**How I present this information: The best way for me to present the info is through groups.**
     * The main group will be our tabs, home, my story, about me and contact.
-    * The secundary group will be the tiles (squares with information in it), this tiles will show more specific information about, skills, activities, studies.
-        * **Home**:
-            * _Personal information_: Here will be showing thing such like Full Name, Phone, Email and a profile picture.
-            * _Core Competences_: This tile is a group of core competences like team working, learning and adaptability, problem solving.
-            * _Recent Activities_: This tile will be a list of the lastest activities, such a studies, progress of a project, new adquired skills, etc.
-        * **My Story**:
-            * _My work history_: Basically its a time line of the different jobs ordered by date
-            * _My Studie history_: Like the work history this will be a time line with every single studie done by dates.
-        * **About Me**:
-            * _Coding Skills_: Inside of this tile are the different coding skills with the level of each one by porcentage.
-            * _Others Skills_:  Although this is a webdeveloper resume, in this tile is for others skills which are not directly connected with a web developer job, but can be helpful.
-        * **Contact**
-            * _Contact form_ : A contact form with basic information such a name, email, and a text area to write the job oportunity or project in mind.
+    * The secondary group will be the tiles (squares with information in it), these tiles will show more specific information about, skills, activities, studies.
+    * **Home:**
+        * Personal information: Here will be showing thing such like Full Name, Phone, Email and a profile picture.
+        * Core Competences: This tile is a group of core competences like team working, learning and adaptability, problem solving.
+        * Recent Activities: This tile will be a list of the latest activities, such a study, progress of a project, new acquired skills, etc.
+    * **My Story:**
+        * My work history: Basically, is a timeline of the different jobs ordered by date.
+        * My Study history: Like the work history this will be a timeline with every single study done by dates.
+    * **About Me:**
+        * Coding Skills: Inside of this tile are the different coding skills with the level of each one by percentage.
+        * Other Skills: Although this is a web developer resume, in this tile is for other skills which are not directly connected with a web developer job but can be helpful.
+    * **Contact:**
+        * Contact form: A contact form with basic information such a name, email, and a text area to write the job opportunity or project in mind.
 
         
 ![image structure three](design/structure.png)
@@ -76,7 +76,7 @@ In this section I am going to outline the basic structure, and how I am going to
 
 ## **Skeleton**
 
-In this part of the project i start building wireframes in balsamic of the structure to see how this menus and tiles (squares with more specific information) looks like.
+In this part of the project, I start building wireframes in balsamic of the structure to see how this menus and tiles (squares with more specific information) looks like.
 
 This is a direct link to try the wireframes, also below this link you can find images of every single wireframe made for this project:
 
@@ -111,15 +111,15 @@ Contact page:
 
 ## **Surface**
 
-In this section all the html and css coding start, in the skeleton surfave i try some color taken from [coolors](https://www.coolors.co), this site was provided by my mentor.
+In this section all the html and CSS coding start, in the skeleton surface I try some color taken from [coolors](https://www.coolors.co), this site was provided by my mentor.
 
-The information is the most important item in this website, for this reason a chose some flat colors, no to bright and no to opaque.
+The information is the most important item on the website, for this reason a chose some flat colors, no to bright and no to opaque.
 
-Before starting coding the index, I did a research about what are the most commond mobile and pc resolution around the world.
+Before start coding the index, I did a research about what are the most common mobile and pc resolution around the world.
 
-The most commond mobile resolution are:
+The most common mobile resolution is:
 
-Resolution | Mobile porcentage
+Resolution | Mobile percentage
 ------------ | -------------
 360x640  | 10.77%
 414x896 | 7.37%
@@ -143,24 +143,23 @@ Resolution | Desktop porcentage
 1280x720 | 5.45%
 1600x900 | 3.47%
 
-Between the 1080p and 768p resolution we have almost the 50% of the users, if we add 768p, 864p and 900p we have more than 60% of the users.
+Between the 1080px and 768px resolution we have almost the 50% of the users, if we add 768px, 864px and 900p we have more than 60% of the users.
 
-In this case basically I adjust the desktop target resolution to 768p and a width max limit of 1200p and a body max limit to 1080p.
+In this case basically I adjust the desktop target resolution to 768px and a width max limit of 1200px and a body max limit to 1080px.
+
 
 ### *Navbar**
 
-The navbar is made for 4 main buttons, Home, My Story, About ME, Contact, each of this buttons show a line under beneath whe you are in that particular seccion.
-If the button is hover by the mouse its became in a different color to denotate that you are going to go that seccion.
+The navbar is made for 4 main buttons, Home, My Story, About ME, Contact, each of these buttons show a line under beneath when you are in that section. If the button is hover by the mouse it became in a different color to denotate that you are going to go that section.
 
 ![the navbar gif](design/animation/surface/navbar.gif)
 
 ### **Middle Section**
 
-- In the middle seccion we can see betwen 1 to 3 main tiles (squares) the column (Recent activities) is presented in every single seccion (the contact seccion its the only one without this column).
-This column will show all the recent activities such a project, jobs.
-- In the Story seccion we have 2 main tails, one with all the jobs by dates simple to read. Below we have the studies history line, both are full responsive, and change from horizontal layout (desktop or resolution wider than 500px) to vertical layout.
-- Inside of about my, we can check all the skills, coding skills and other skills, every skill have his own porogress bar.
-- The contact seccion have a contact form which is not working at the moument (do not send the request to a email)
+- In the middle section we can see between 1 to 3 main tiles (squares) the column (Recent activities) is presented in every single section (the contact section is the only one without this column). This column will show all the recent activities such a project, jobs.
+- In the Story section we have 2 main tails, one with all the jobs by dates simple to read. Below we have the studies history line, both are full responsive, and change from horizontal layout (desktop or resolution wider than 500px) to vertical layout.
+- Inside of about my, we can check all the skills, coding skills and other skills, every skill have his own progress bar.
+- The contact section has a contact form which is not working (at the moment do not send the request to an email).
 - Image of the completed web site:
     
     
@@ -168,8 +167,7 @@ This column will show all the recent activities such a project, jobs.
 
 ### **The footer**
 
-The footer its full responsive to, and have links to diferent parts of the site, and a download CV link, just in case some one need a more traditional cv format.
-The social column have links to the diferent social media websites.
+The footer its full responsive to, and have links to different parts of the site, and a download CV link, just in case someone need a more traditional cv format. The social column has links to the different social media websites.
 
 ![the navbar gif](design/animation/surface/footer.gif)
 
@@ -178,7 +176,7 @@ The social column have links to the diferent social media websites.
 
 ## **Responsive**
     
-The site its made to be responsive between 360p to upto 1200px:
+The site it has made to be responsive between 360p to up to 1200px:
     
 * Image of the mobile web site: 
    
@@ -383,7 +381,7 @@ The site its made to be responsive between 360p to upto 1200px:
 
 ## **Unfixed Bugs**
 
-* I did not find any errors, the website was tested on the following devices::
+* I did not find any errors, the website was tested on the following devices:
     - Samsung s9+ (Android) Ver. 
         - Web Browsers: 
             - EDGE: Versión 91.0.864.37
@@ -449,21 +447,32 @@ The site its made to be responsive between 360p to upto 1200px:
     
 6) Save, the project is deployed in github pages in the following link:[Project-My-Resume](https://humbertoragazzini.github.io/ms-1-front-end/)
 
-![deploy image](design/deploy/deploy.gif)
+![deploy image](design/animation/deploy/deploy.gif)
 
 ## **To clone my repository in github**
 
 To clone de repository follow this steps:
 
 1)
-    a) In my repository you can click in download.
-    b) Safe the file an after that uncompres the file in you desired directory.
-    c) Now you can open the project with any IDE.
-2)
-    a) First of all we need to install git from this link https://git-scm.com/downloads .
-    b) After install gitbash in the command prompt select the path where you prefer to save the files.
-    c) Execute the command    git clone https://github.com/humbertoragazzini/ms-1-front-end.git .
+    1.a) In my repository you can click in download.
 
+    1.b) Safe the file an after that uncompress the file in you desired directory.
+
+    1.c) Now you can open the project with any IDE.
+
+![download repository](design/animation/clone/download.gif)
+
+2)
+    2.a) First of all we need to install git from this link [GitBash](https://git-scm.com/downloads) .
+
+    2.b) After install gitbash in the command prompt select the path where you prefer to save the files.
+
+    2.c) Execute the command in gitbash:
+    ```git clone https://github.com/humbertoragazzini/ms-1-front-end.git ```
+
+    2.d) After this you now can open the project with any ide such a Visual Studio.
+
+![clone repository](design/animation/clone/clone.gif)
 
 # **Credits**
 
@@ -471,24 +480,24 @@ To clone de repository follow this steps:
 ## **Content**
 
 **The text:**
-- I write all the text in the web site, my mentor read it an notice some spelling problems, my wife help me to fixed it. (Thanks to Yamile Simes who help me with all the spellings errors)
+- I write all the text in the web site, my mentor read it a notice some spelling problems, my wife helps me to fixed it. (Thanks to Yamile Simes who help me with all the spellings errors)
 
 **The form:** 
-- part of the code was taken from the oficcial bootstrap website and from the code institute learning page.
+- part of the code was taken from the official bootstrap website and from the code institute learning page
 _[bootstrap form address](https://getbootstrap.com/docs/5.0/forms/overview/)_.
 
 **The icons:** 
-- the icon are from font awsome, and this link was provided by the learning page in code institute.
+- the icon is from font awesome, and this link was provided by the learning page in code institute
 _[font awesome web site](https://fontawesome.com/)_.
 
 **The fonts:**  
-- from google fonts, this link is from learning page in code institute.
+- From google fonts, this link is from learning page in code institute.
 
 **Navmenu (desktop):**
-- I take this from code institute learning videos, and make some modifications.
+- I take this from code institute learning videos, and make some modifications
 
 **Navmenu (mobile):** 
-- Taken from bootstrap dropdown and navar menus.
+- Taken from bootstrap dropdown and navbar menus.
 _[navbar bootstrap](https://getbootstrap.com/docs/5.0/components/navbar/)_ / 
 _[dropdown menu bootstrap](https://getbootstrap.com/docs/5.0/components/dropdowns/)_.
 
