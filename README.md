@@ -356,30 +356,28 @@ The site its made to be responsive between 360p to upto 1200px:
             * _The navbar mobile was affected for the same bug than home page._
             * _The navbar items was affected for the same bug than home page._
         2) My Story: position, size, all correct from 360px to 1200px.
-        - personal info: position, size, style, all correct from 360px to 1200px.
-        - my core competences: position, size, style, style, all correct from 360px to 1200px.
-        - footer: links, icons, social and download cv, style, all correct from 360px to 1200px.
+        3) My History Work line: position, size, style, all correct from 360px to 1200px.
+        4) My History Studies line: position, size, style, style, all correct from 360px to 1200px.
+        5) footer: links, icons, social and download cv, style, all correct from 360px to 1200px.
             * _The links and social here was affected for the same bug than home page._
 
 * About Me:
     - Tested:
-        - Navbar ( all links: home, my story,about me, contact).
+        1) Navbar ( all links: home, my story,about me, contact).
             * _The navbar mobile was affected for the same bug than home page._
             * _The navbar items was affected for the same bug than home page._
-        - Profile Image: position, size, all correct from 360px to 1200px.
-        - personal info: position, size, style, all correct from 360px to 1200px.
-        - my core competences: position, size, style, style, all correct from 360px to 1200px.
+        2) Coding Skills: position, size, all correct from 360px to 1200px.
+        3) Other Skills: position, size, style, all correct from 360px to 1200px.
         - footer: links, icons, social and download cv, style, all correct from 360px to 1200px.
             * _The links and social here was affected for the same bug than home page._
             
 * Contact:
     - Tested:
-        - Navbar ( all links: home, my story,about me, contact )
+        1) Navbar ( all links: home, my story,about me, contact )
             * _The navbar mobile was affected for the same bug than home page._
             * _The navbar items was affected for the same bug than home page._
-        - Profile Image: position, size, all correct from 360px to 1200px.
-        - personal info: position, size, style, all correct from 360px to 1200px.
-        - my core competences: position, size, style, style, all correct from 360px to 1200px.
+        2) Contac Form: position, size, all correct from 360px to 1200px.
+        3) Modal (request sent): position, size, style, all correct from 360px to 1200px.
         - footer: links, icons, social and download cv, style, all correct from 360px to 1200px.
             * _The links and social here was affected for the same bug than home page._
 
@@ -455,7 +453,16 @@ The site its made to be responsive between 360p to upto 1200px:
 
 ## **To clone my repository in github**
 
-1) With you account loged go to my repository: [Git Hub Repository](https://github.com/humbertoragazzini/ms-1-front-end).
+To clone de repository follow this steps:
+
+1)
+    a) In my repository you can click in download.
+    b) Safe the file an after that uncompres the file in you desired directory.
+    c) Now you can open the project with any IDE.
+2)
+    a) First of all we need to install git from this link https://git-scm.com/downloads .
+    b) After install gitbash in the command prompt select the path where you prefer to save the files.
+    c) Execute the command    git clone https://github.com/humbertoragazzini/ms-1-front-end.git .
 
 
 # **Credits**
