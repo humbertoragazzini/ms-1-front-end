@@ -424,7 +424,9 @@ The site it has made to be responsive between 360p to up to 1200px:
 
 - GIMP - GIMP photo editor: _[gimp photo editor](https://www.gimp.org/)_.
 
-- ACTION SCREEN RECORDER** - Screen recorder: _[ACTION](https://mirillis.com/es/productos/action-grabacion-de-pantalla-y-videojuegos.html)_. 
+- ACTION SCREEN RECORDER - Screen recorder: _[ACTION](https://mirillis.com/es/productos/action-grabacion-de-pantalla-y-videojuegos.html)_. 
+
+- Resolve Video Editor - _[Resolve](https://www.blackmagicdesign.com/products/davinciresolve/)_.
 
 - ONLINE-CONVERTER - Video to gif: _[Online converter](https://imagen.online-convert.com/es/convertir/mp4-a-gif)_.
 
@@ -513,8 +515,12 @@ _[progress bars bootstrap](https://getbootstrap.com/docs/5.0/components/progress
 - the colors of the enterely website was taken from _[coolors](https://www.coolors.co)_.
 - Thanks to my mentor for provide me with this link.
 
+**Videos**: 
+- Edited with Resolve. 
+- Recorded with Action.
 
-
+**Gif**
+- Edited and Converted with onlineconverter _[online converter](https://www.onlineconverter.com/)_.
 
 
 
