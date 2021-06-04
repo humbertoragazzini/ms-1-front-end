@@ -458,7 +458,7 @@ To clone de repository follow this steps:
 1)
     1.a) In my repository you can click in download.
 
-    1.b) Safe the file an after that uncompress the file in you desired directory.
+    1.b) Safe the file an after that uncompressed the file in you desired directory.
 
     1.c) Now you can open the project with any IDE.
 
@@ -482,24 +482,24 @@ To clone de repository follow this steps:
 ## **Content**
 
 **The text:**
-- I wrote all the text in the web site, my mentor read it a notice some spelling problems, my wife help me to fixed it. (Thanks to Yamile Simes who help me with all the spelling errors)
+- I have written all the web site text, my mentor detected some spelling problems, my wife helped me to fixed them. (Thanks to Yamile Simes)
 
 **The form:** 
-- part of the code was taken from the official bootstrap website and from the code institute learning page
+- part of the code was utilized from the official bootstrap website and the code institute learning page
 _[bootstrap form address](https://getbootstrap.com/docs/5.0/forms/overview/)_.
 
 **The icons:** 
-- the icon is from font awesome, and this link was provided by the learning page in code institute
+- the icons were used from the font awesome website; The link was provided by the code institute learning page
 _[font awesome web site](https://fontawesome.com/)_.
 
 **The fonts:**  
-- From google fonts, this link is from learning page in code institute.
+- From google fonts, The link was provided by the code institute learning page
 
 **Navmenu (desktop):**
-- I take this from code institute learning videos, and make some modifications.
+- I used it from code institute learning videos, and make some modifications
 
 **Navmenu (mobile):** 
-- Taken from bootstrap dropdown and navbar menus.
+- Utilized it from bootstrap dropdown and navbar menus.
 _[navbar bootstrap](https://getbootstrap.com/docs/5.0/components/navbar/)_ / 
 _[dropdown menu bootstrap](https://getbootstrap.com/docs/5.0/components/dropdowns/)_.
 
