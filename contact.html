@@ -55,7 +55,7 @@
                             <h1 id="tittle-header-mobile">Full Stack Developer</h1>
                             <!-- dropdown mobile menu -->
                             <div class="dropdown" id="menu-buttom">
-                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" aria-label="menu">
                                     <i class="fas fa-bars"></i>
                                 </button>
                                 <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end " aria-labelledby="dropdownMenuButton1" id="drop-menu">
@@ -104,7 +104,9 @@
                                     <input type="email" id="email" name="email">
                                     <label class="contact-form-labels" for="reason-for-contact">Your idea or Project:</label>
                                     <textarea rows="4" name="reason-for-contact" id="reason-for-contact" placeholder="In a few words discribe your idea, the project in mind or the job oportunity, thanks."></textarea>
-                                    <button type="button" id="button-send-request" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#request-sent">Contact Request</button>
+                                    <div class="col text-center">
+                                        <button type="button" id="button-send-request" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#request-sent" aria-label="contact request button">Contact Request</button>
+                                    </div>
                                     <!-- Modal bootstrap 5.0 -->
                                     <div class="modal fade" id="request-sent" tabindex="-1" aria-labelledby="modal-contact-request-title" aria-hidden="true">
                                         <div class="modal-dialog">
@@ -117,7 +119,7 @@
                                                 <p>Your contact request has been sent.</p>
                                             </div>
                                                 <div class="modal-footer">
-                                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal" aria-label="close modal button">Close</button>
                                                 </div>
                                             </div>
                                         </div>

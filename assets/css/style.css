@@ -8,6 +8,7 @@
 }
 body{
     background-image: url(../images/background-text.jpg); 
+    max-width: 1080px;
     background-size: cover;
     background-repeat: no-repeat;
     height: 1360px;
@@ -15,7 +16,7 @@ body{
     color: black;
     font-family: 'Alegreya Sans', sans-serif;
 }
-/*this was modified because with the default value of bootstrap make the column appear with a big space between this and the rest of the others columns (i take this value from the chrome developer tools)*/
+/*this was modified default value of bootstrap make the column appear with a big space between this and the rest of the others columns (i take this value from the chrome developer tools)*/
 .row{
     --bs-gutter-x: 0rem;
 }
@@ -49,9 +50,6 @@ ul {
    height: 340px;
 }
 
-.second-box-content {
-    min-height: 449px;
-}
 
 /*this rule make the (core competences) box to have a fixed height*/
 .second-box-content{
@@ -70,6 +68,7 @@ ul {
     float: left;
     top: 120px;
     left: -175px;
+    color: transparent;
 }
 /*this rule make the mobile personal info disapear*/
 #personal-info-mobile{
@@ -264,13 +263,9 @@ ul {
             .activity-item h5{
                 text-transform: uppercase;
             }
-            /*this rule add some padding-top to the second box an make the content look more centered*/
-            .second-box-content{
-                padding: 25px;
-            }
             /*this rule add some margin and font weight to the (my core competence box)*/
             .second-box-content h2{
-                margin: 60px auto 30px auto;
+                margin: 80px auto 30px auto;
                 font-weight: 600;
             }
             /*this rule add some space between every single div inside of the (my core competence) box*/
@@ -288,6 +283,10 @@ ul {
                 margin-right: 20px;
                 font-size: 1.2em;
             }
+            /*center social and links divs*/
+            .contact-social-divs{
+                margin: 45px auto;
+            }
             /*this rule make de footer box be at the same heigh than the activity box, to make them align together*/
             footer{
                 position: relative;
@@ -298,6 +297,9 @@ ul {
             .footer-border{
                 border: solid 2px rgba(0,0,0,0);
             }
+            #container-footer{
+                height: 100%;
+            }
 
 /* RESPONSIVE */
 
@@ -306,6 +308,9 @@ ul {
 
             /* SECTION */
 
+            .second-box-content h2{
+                margin: 60px auto 30px auto;
+            }
             /*this rule ajust the posistion of the image*/
             .imagen{
                 top: 120px;
@@ -466,6 +471,16 @@ ul {
             }
 
             /* FOOTER */
+
+            /*margin for mobile*/
+            .contact-social-divs {
+                margin: 35px auto 0 auto;
+            }
+            #links-div{
+                    margin-top: 0px;
+                    margin-bottom: 20px;
+                
+            }
             
             /*this rule make the span disapear to leave all the icons alones*/
             .footer-layout-transformation span{
@@ -476,6 +491,7 @@ ul {
             .footer-layout-transformation.social-footer li{
                 display: inline;
                 padding: 0px;
+                font-size: 40px;
             }
             /*this rule make de col footer adjust the height dependint of the width*/
             .footer-col{
@@ -485,17 +501,9 @@ ul {
             .contact-social-divs{
                 text-align: center;
             }
-            /*this rule change the font size affecting the icons and make them looks more bigger*/
-            .footer-layout-transformation.social-footer i{
-                font-size: 40px;
-            }
             /*this rule eliminate the padding from the ul to make the icons be more centered*/
             .social ul{
                 padding-left: 0px;
-            }
-            /*we add padding top,right,left and bottom, to make all the content in the footer looks more centered*/
-            .footer-col{
-                padding: 25px;
             }
             /*move the download link in (LINKS) to make it more centered*/
             #download-link-footer{
@@ -744,18 +752,9 @@ ul {
             height: 140px;
         }
 
-        /*#button-send-request:focus{
-           
-        }*/
-
         textarea{
             display: block;
-            margin: 15px 17%;
-        }
-
-        .btn-success{
-            position: relative;
-            left: 41px;
+            margin: 15px auto;
         }
         .btn-success:focus{
             color: white;
