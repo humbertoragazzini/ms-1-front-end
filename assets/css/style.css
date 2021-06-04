@@ -5,10 +5,11 @@
 /*GENERAL RULEs*/
 body{
     background-image: url(../images/background-text.jpg);
-    background-position: 0% 20%;
-    background-size:  cover;
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     max-width: 1080px;
+    max-height: 1330px;
     margin: 0 auto;
     color: black;
     font-family: 'Alegreya Sans', sans-serif;
@@ -363,6 +364,11 @@ ul {
         /*this rules are made to adjust the content when the width is below 768px*/
         @media (max-width:768px){
 
+            /*this rule fixed de problem with the background*/
+            body{
+                max-height: 1500px;
+            }
+
             /*this rule make the mobile navbar appear*/
             #mobile-header{
                 visibility: visible;
@@ -495,6 +501,11 @@ ul {
             /*this rules make the web looks nicer when it reach width below 456px*/
 
             @media (max-width:456px){
+
+                /*fixed background white bar bottom problem*/
+                body{
+                    max-height: 1400px;
+                }
 
                 /**this rule make the mobile header looks more verticaly centered*/
                 #mobile-header{
@@ -726,19 +737,26 @@ ul {
             height: 140px;
         }
 
-        #button-send-request:focus{
-            color: white;
-            background-color: #3d405b;
-        }
+        /*#button-send-request:focus{
+           
+        }*/
 
         textarea{
             display: block;
             margin: 15px 17%;
         }
 
-        .btn-secondary{
+        .btn-success{
             position: relative;
             left: 41px;
+        }
+        .btn-success:focus{
+            color: white;
+            background-color: #007a2f54;
+            box-shadow: unset;
+        }
+        .btn-success:focus::after{
+            content: ' Sent';
         }
 
         fieldset {
