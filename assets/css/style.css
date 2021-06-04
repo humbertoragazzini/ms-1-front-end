@@ -9,8 +9,8 @@ body{
     background-position: center;
     background-size: cover;
     max-width: 1080px;
-    max-height: 1330px;
-    margin: 0 auto;
+    max-height: 1360px;
+    margin: 0 auto 10px auto;
     color: black;
     font-family: 'Alegreya Sans', sans-serif;
 }
