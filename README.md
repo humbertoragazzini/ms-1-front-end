@@ -511,6 +511,14 @@ _[progress bars bootstrap](https://getbootstrap.com/docs/5.0/components/progress
 
 **Background**: made with GIMP on windows.
 
+**Logos**: taken from: 
+- Jazztel Telecomunication: _[Jazztel](https://www.jazztel.com/)_  
+- HDC Computers: _[HDC](https://www.paseolugones.com.ar/marca/hdc/)_ 
+- Morrisons: _[Morrisons](https://groceries.morrisons.com/webshop/startWebshop.do)_  
+- Cisco CCNA: _[Cisco](https://www.cisco.com/)_  
+- Secondary School Sarmiento: _[Sarmiento](https://www.facebook.com/IDFSarmiento/)_  
+- UTN University: _[UTN](https://www.frc.utn.edu.ar/)_ 
+
 **Colors**: 
 - the colors of the entirely website was taken from _[coolors](https://www.coolors.co)_.
 - Thanks to my mentor for provide me with this link.

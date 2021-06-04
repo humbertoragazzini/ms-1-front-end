@@ -16,7 +16,7 @@ body{
     color: black;
     font-family: 'Alegreya Sans', sans-serif;
 }
-/*this was modified default value of bootstrap make the column appear with a big space between this and the rest of the others columns (i take this value from the chrome developer tools)*/
+/*this was modified default value of bootstrap make the columns appear with a big space between this and the rest of the others columns (i take this value from the chrome developer tools)*/
 .row{
     --bs-gutter-x: 0rem;
 }
@@ -81,48 +81,55 @@ ul {
 /*COLORS*/
 
 
-        /* HEADER */
+/* HEADER */
                         
-            /* set a underlione in the navbar element which is active, so you are un the home page, the home <p> will appear with a underline decoration */
-           .active-element-navbar{
-                text-decoration: underline;
-           }
-           /* this set the color of the items in the navbar when they are hovered */
-           .ul-nav-bar a:hover{
-               color: #f2cc8f;
-           }
+/* set a underlione in the navbar element which is active, so you are un the home page, the home <p> will appear with a underline decoration */
+.active-element-navbar{
+    text-decoration: underline;
+}
+
+/* this set the color of the items in the navbar when they are hovered */
+.ul-nav-bar a:hover{
+    color: #f2cc8f;
+}
             
-        /* SECTION */
-            /* this is the background of the main box (the first one, in the home page for example is the personal info box) */
-            .main-data-box-color{
-                background-color: #b0cfc0;
-            }
-            /* this is the background of the second box (in the home page for example is the core competences box) */
-            .second-box-content-color{
-                background-color: #f4f1de;
-            }
-            /* this is the background of the recent activity box (in the home page for example is the recent activities box) */
-            .recent-activity-color{
-                background-color: #f2cc8f;
-            }
-            .type-of-data p{
-                font-weight: 600;
-            }
+/* SECTION */
+
+/* this is the background of the main box (the first one, in the home page for example is the personal info box) */
+.main-data-box-color{
+    background-color: #b0cfc0;
+}
+
+/* this is the background of the second box (in the home page for example is the core competences box) */
+.second-box-content-color{
+    background-color: #f4f1de;
+}
             
-        /* FOOTER */
-            /* this is the footer background and the font color which affect our icons to */
-            .bg-footer-color{
-                background-color: #3d405b;
-                color: white;
-            }
-           /* this change the anchor color to white, overwriting the blue color*/
-            footer a{
-                color: white;
-            }
-            /* this change the anchor color when is hovered, this change de color of our icons to*/
-            a:hover{
-                color: #f2cc8f;
-            }
+/* this is the background of the recent activity box (in the home page for example is the recent activities box) */
+.recent-activity-color{
+    background-color: #f2cc8f;
+}
+.type-of-data p{
+    font-weight: 600;
+}
+            
+/* FOOTER */
+
+/* this is the footer background and the font color which affect our icons to */
+.bg-footer-color{
+    background-color: #3d405b;
+    color: white;
+}
+
+/* this change the anchor color to white, overwriting the blue color*/
+footer a{
+    color: white;
+}
+
+/* this change the anchor color when is hovered, this change de color of our icons to*/
+a:hover{
+    color: #f2cc8f;
+}
         
             
 
@@ -132,673 +139,764 @@ ul {
 /* GENERAL RULES */
 
 
-         /*header*/
+/*header*/
             
-            /*this rule make the desktop navbar be closer to the main content*/
-            .ul-nav-bar{
-                position: relative;
-                margin-top: 15px;
-                font-size: 15px;
-                padding-left: 0px;
-            }
-            /*this rule make li be inline-block element to be one next to other adding some margin to make them looks better, this rule make the navbar be horizontal*/
-            .ul-nav-bar li{
-               display: inline-block;
-               margin: 5px 15px;
-            }
-            .ul-nav-bar div{
-                width: 160px;
-                padding: 5px 25px;
-             }
-            /*this rule overwrite the blue color of every single anchor in the navbar and move 10px to make them looks more in the center*/
-            .ul-nav-bar a{
-                color: rgb(71, 67, 67);
-                position: relative;
-                top: 10px;
-            }
-            .line-div-vertical{
-                border-left: solid 2px black;
-            }
+/*this rule make the desktop navbar be closer to the main content*/
+.ul-nav-bar{
+    position: relative;
+    margin-top: 15px;
+    font-size: 15px;
+    padding-left: 0px;
+}
 
-            /*this rule add style to the icons in the navbar, also add the width and height to make the icon be separated from the <p>*/
-            .icon-font{
-                font-size: 20px;
-                width: 1.5em;
-            }
-            /* this fix the height of the header */
-            .main-header{
-                height: 75px;
-            }
-            /* inside of the ul (navbar for desktop) we have <p> element for every single page (home,about me, etc) this rule make all the <p> float next to the icon and centered */
-            .nav-bar-titles{
-                float: right;
-                position: relative;
-                left: -5px;
-            }
-            /* this rule make the mobile header (navbar) hidden, because its only be show when the width screen si less than 768px */
-            #mobile-header{
-                display: none;
-                visibility: hidden;
-            }
-        /*section*/
+/*this rule make li be inline-block element to be one next to other adding some margin to make them looks better, this rule make the navbar be horizontal*/
+.ul-nav-bar li{
+    display: inline-block;
+    margin: 5px 15px;
+}
 
-            /* this rule make the main row which have inside the main 3 boxes, for example in the home page this boxes are (personal info, my core competences, recent activity) and make it be fixed*/
-            .middle-section{
-                min-height:1000px;
-            }
-            /*this two rules make the first and the second box (cols) have some space each other*/
-            .spacing-borders-second-box{
-                margin-top: 2px;
-            }
+.ul-nav-bar div{
+    width: 160px;
+    padding: 5px 25px;
+}
+
+/*this rule overwrite the blue color of every single anchor in the navbar and move 10px to make them looks more in the center*/
+.ul-nav-bar a{
+    color: rgb(71, 67, 67);
+    position: relative;
+    top: 10px;
+}
+
+.line-div-vertical{
+    border-left: solid 2px black;
+}
+
+/*this rule add style to the icons in the navbar, also add the width and height to make the icon be separated from the <p>*/
+.icon-font{
+    font-size: 20px;
+    width: 1.5em;
+}
+
+/* this fix the height of the header */
+.main-header{
+    height: 75px;
+}
+
+/* inside of the ul (navbar for desktop) we have <p> element for every single page (home,about me, etc) this rule make all the <p> float next to the icon and centered */
+.nav-bar-titles{
+    float: right;
+    position: relative;
+    left: -5px;
+}
+
+/* this rule make the mobile header (navbar) hidden, because its only be show when the width screen si less than 768px */
+#mobile-header{
+    display: none;
+    visibility: hidden;
+}
+
+/*section*/
+
+/* this rule make the main row which have inside the main 3 boxes, for example in the home page this boxes are (personal info, my core competences, recent activity) and make it be fixed*/
+.middle-section{
+    min-height:1000px;
+}
+
+/*this two rules make the first and the second box (cols) have some space each other*/
+.spacing-borders-second-box{
+    margin-top: 2px;
+}
             
-            .spacing-borders-main-box{
-                margin-bottom: 2px;
-            }
+.spacing-borders-main-box{
+    margin-bottom: 2px;
+}
 
-            /*this rule reduce de size of the first box to acomodate the h4 inside and make it looks better*/
-            .main-box-data-title-my-story{
-                height: 90px;
-            }
-            .second-box-content-my-story {
-                min-height: 449px;
-                padding: 25px;
-            }
-            
-            /*this rule make the h2 inside of the first box (full stack web developer) have the position and the font-size weight*/
-            #my-role{
-                position: relative;
-                top: 30px;
-                left: 30px;
-                font-size: 28px;
-                font-weight: 500;
-            }
-            /*this rule affect the main details which is in the first box (col), its a unorder list, we apply a list tyle none to make it looks nicer*/
-            #my-main-details{
-                list-style: none;
-                font-weight: 500;
-                color: black;
-            }
-            /*this overflow rules make the recent activity have the enogh height to be next to the footer in the bottom of the webpage, and align the text to*/
-            .overflow-recent-activity{
-                width: 100%;
-                height: 1246px;
-                padding: 20px 45px;
-                text-align: center;
-            }
-            
-            /*this rule modifie the position of the ul list (personal info list) to make it be next to the profile picture*/
-            #personal-info{
-                position: relative;
-                float: right;
-                top: -180px;
-                left: -120px;
-            }
-            /*this rule make the li element in the personal info list more nicer*/
-            #personal-info li{
-                position: relative;
-                margin-top: 10px;
-                left: 50px;
-            }
-            /*this rule make the li element with the values (ex the name) with a diferent weight and moving the position to make it looks better*/
-            .value-of-data{
-                position: relative;
-                font-weight: 500;
-                font-size: 1.2em;
-                top: -20px;
-                left: 10px;
-            }
-            /*this rule reduce the height of every li element in the personal info list to make them be more close eachother*/
-            #my-main-details li{
-                height: 40px;
-            }
-            /*this rule add some margin to the tittle of the recent activity box (col) to make it looks better*/
-            #activities-table h3{
-                margin: 15px auto 35px auto;
-            }
-            /*this rule add some space between the divs (activities divs) to make them looks better*/
-            .activity-item {
-                margin-top: 65px;
-            }
-            /*we tranform every single h5 from the recent activities uppercase*/
-            .activity-item h5{
-                text-transform: uppercase;
-            }
-            /*this rule add some margin and font weight to the (my core competence box)*/
-            .second-box-content h2{
-                margin: 80px auto 30px auto;
-                font-weight: 600;
-            }
-            /*this rule add some space between every single div inside of the (my core competence) box*/
-            .core-competences-item{
-                padding: 15px 40px;
-            }
-        /* footer */
+/*this rule reduce de size of the first box to acomodate the h4 inside and make it looks better*/
+.main-box-data-title-my-story{
+    height: 90px;
+}
 
-            /* this rule make de footer fixed in height to make it be at the same line in the bottom with the recent activity box*/
-            .footer-col{
-                height: 250px;
-            }
-            /*this make the some space between the icon and the text in the contact and de social lu in the footer*/
-            .contact-social-divs i{
-                margin-right: 20px;
-                font-size: 1.2em;
-            }
-            /*center social and links divs*/
-            .contact-social-divs{
-                margin: 45px auto;
-            }
-            /*this rule make de footer box be at the same heigh than the activity box, to make them align together*/
-            footer{
-                position: relative;
-                top: -250px;
-                margin-bottom: -250px;
-            }
-            /*this add some space between the footer box and the second box, in the home page for example is the my core competence*/
-            .footer-border{
-                border: solid 2px rgba(0,0,0,0);
-            }
-            #container-footer{
-                height: 100%;
-            }
+.second-box-content-my-story {
+    min-height: 449px;
+    padding: 25px;
+}
+            
+/*this rule make the h2 inside of the first box (full stack web developer) have the position and the font-size weight*/
+#my-role{
+    position: relative;
+    top: 30px;
+    left: 30px;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+/*this rule affect the main details which is in the first box (col), its a unorder list, we apply a list tyle none to make it looks nicer*/
+#my-main-details{
+    list-style: none;
+    font-weight: 500;
+    color: black;
+}
+
+/*this overflow rules make the recent activity have the enogh height to be next to the footer in the bottom of the webpage, and align the text to*/
+.overflow-recent-activity{
+    width: 100%;
+    height: 1246px;
+    padding: 20px 45px;
+    text-align: center;
+}
+            
+/*this rule modifie the position of the ul list (personal info list) to make it be next to the profile picture*/
+#personal-info{
+    position: relative;
+    float: right;
+    top: -180px;
+    left: -120px;
+}
+
+/*this rule make the li element in the personal info list more nicer*/
+#personal-info li{
+    position: relative;
+    margin-top: 10px;
+    left: 50px;
+}
+
+/*this rule make the li element with the values (ex the name) with a diferent weight and moving the position to make it looks better*/
+.value-of-data{
+    position: relative;
+    font-weight: 500;
+    font-size: 1.2em;
+    top: -20px;
+    left: 10px;
+}
+
+/*this rule reduce the height of every li element in the personal info list to make them be more close eachother*/
+#my-main-details li{
+    height: 40px;
+}
+
+/*this rule add some margin to the tittle of the recent activity box (col) to make it looks better*/
+#activities-table h3{
+    margin: 15px auto 35px auto;
+}
+
+/*this rule add some space between the divs (activities divs) to make them looks better*/
+.activity-item {
+    margin-top: 65px;
+}
+
+/*we tranform every single h5 from the recent activities uppercase*/
+.activity-item h5{
+    text-transform: uppercase;
+}
+
+/*this rule add some margin and font weight to the (my core competence box)*/
+.second-box-content h2{
+    margin: 80px auto 30px auto;
+    font-weight: 600;
+}
+
+/*this rule add some space between every single div inside of the (my core competence) box*/
+.core-competences-item{
+    padding: 15px 40px;
+}
+
+/* footer */
+
+/* this rule make de footer fixed in height to make it be at the same line in the bottom with the recent activity box*/
+.footer-col{
+    height: 250px;
+}
+
+/*this make the some space between the icon and the text in the contact and de social lu in the footer*/
+.contact-social-divs i{
+    margin-right: 20px;
+    font-size: 1.2em;
+}
+
+/*center social and links divs*/
+.contact-social-divs{
+     margin: 45px auto;
+}
+
+/*this rule make de footer box be at the same heigh than the activity box, to make them align together*/
+footer{
+    position: relative;
+    top: -250px;
+    margin-bottom: -250px;
+}
+
+/*this add some space between the footer box and the second box, in the home page for example is the my core competence*/
+.footer-border{
+    border: solid 2px rgba(0,0,0,0);
+}
+
+#container-footer{
+    height: 100%;
+}
 
 /* RESPONSIVE */
 
-        /*rules for screen width 1200px*/
-        @media (max-width:1200px){
+/*rules for screen width 1200px*/
+@media (max-width:1200px){
 
-            /* SECTION */
+    /* SECTION */
 
-            .second-box-content h2{
-                margin: 60px auto 30px auto;
-            }
-            /*this rule ajust the posistion of the image*/
-            .imagen{
-                top: 120px;
-                left: -155px;
-            }
-            .activity-item {
-                margin-top: 50px;
-            }
-            /*fix overlaping*/
-            .second-box-content {
-                padding: 25px 25px 10px 25px;
-            }
-
-        }
-
-        /*rules for screen width 992px*/
-        @media (max-width:992px){
-
-            /* general */
-
-            /*this rule ajust the main box and the footer with a 100% width because we hidde the recent activity box*/
-            .mobile-width-ajustment{
-                width: 100%;
-            }
-
-            /*  header */
-            /*this margin applied to the li element make the li be in the same line when the screen width is below 992px*/
-            .ul-nav-bar li{
-                margin: 5px 15px;
-             }
-             
-            /* this rule aling the anchor with the span elemnt (the vertical lines)*/
-            .ul-nav-bar a{
-                top: 10px;
-            }
-            /* make some space in the divs and adjust position*/
-            .ul-nav-bar div {
-                width: 130px;
-                padding: 5px 0px;
-                position: relative;
-                right: 10px;
-            }
-
-            
-            
-        /*  SECTION  */
-            /*this rule hidde the recent activity box*/
-            .recent-activity-property{
-                display: none;
-                visibility: hidden;
-            }
-            
-        /*  FOOTER  */
-            /*because i hidde the recent activity box, the footer come up, so this rule adjust the position to not overlap the second box*/
-            footer{
-                position: relative;
-                top: 0px;
-            }
-
-        }
-
-        /*this rules are made to adjust the content when the width is below 768px*/
-        @media (max-width:768px){
-
-            /*this rule fixed de problem with the background*/
-            body{
-                background-size: auto 1750px;
-                max-height: 1650px;
-            }
-
-            /*this rule make the mobile navbar appear*/
-            #mobile-header{
-                visibility: visible;
-                display: initial;
-            }
-            /*this rule adjust the mobile header tittle (full stack developer)*/
-            #tittle-header-mobile{
-                float: left;
-                font-size: 28px;
-                margin: 5px;
-            }
-            /*this rule improve the position of the mobile navbar*/
-            #mobile-header{
-                position: relative;
-                top: 15px;
-            }
-            /*this rule make the nav button (dropdown) be in the rigth side of the page, when is in mobile mode*/
-            #menu-buttom{
-                float: right;
-                right: 10px;
-            }
-            /*this rule make the desktop navbar disapear, its hidde the desktop navbar*/
-            .ul-nav-bar{
-                display: none;
-                visibility: hidden;
-            }
-            /*this make the dropdown menu smaller*/
-            .dropdown-menu {
-                min-width: 6em;
-                max-width: 7em;
-            }
-            
-            /* SECTION */
-
-            /*this make the div personal info for desktop disapear*/
-            #personal-info{
-                display: none;
-                visibility: hidden;
-            }
-            /*this make the h2 my-role disapper*/
-            #my-role{
-                visibility: hidden;
-                top: 0px;
-                left: 0px;
-            }
-            /*this rule modified the my-role content for the name and make it visible*/
-            #my-role:after{
-                content: 'Humberto Ragazzini';
-                visibility: visible;
-                display: flex;
-                justify-content: center;
-            }
-            /*this adjust the position and the radius of the image to make it more nicer*/
-            .imagen{
-                width: 200px;
-                height: 200px;
-                top: 120px;
-                left: 0px;
-                border-radius: 15%;
-            }
-            /*this make visible the personal infor mobile div, and add some position improvement*/
-            #personal-info-mobile{
-                display: inline-block;
-                visibility: visible;
-                position: relative;
-                top: -195px;
-                text-align: center;
-            }
-            /*this remove the padding left of the ul list to make them be align eachother*/
-            #personal-info-ul{
-                padding-left: 0px;
-                
-            }
-            /*this rule adjust the li from the personal info to make them be more closer eachother*/
-            #personal-info-ul li{
-                height: 50px;
-            }
-            
-            /*this rule add some styling to the value in the personal info mobile ul*/
-            .value-of-data {
-                position: relative;
-                left: -7px;
-            }
-            /*this add some style in the type of data of the personal info mobile ul*/
-            .type-of-data{
-                position: relative;
-                left: -7px;
-                font-weight: 500;
-            }
-
-            /* FOOTER */
-
-            /*margin for mobile*/
-            .contact-social-divs {
-                margin: 35px auto 0 auto;
-            }
-            #links-div{
-                    margin-top: 0px;
-                    margin-bottom: 20px;
-                
-            }
-            
-            /*this rule make the span disapear to leave all the icons alones*/
-            .footer-layout-transformation span{
-                visibility: hidden;
-                display: none;
-            }
-            /*this rule make the li of the social footer part one next to eachother*/
-            .footer-layout-transformation.social-footer li{
-                display: inline;
-                padding: 0px;
-                font-size: 40px;
-            }
-            /*this rule make de col footer adjust the height dependint of the width*/
-            .footer-col{
-                height: auto;
-            }
-            /*because we move all the divs in one line, this rule help to aling every one in the center*/
-            .contact-social-divs{
-                text-align: center;
-            }
-            /*this rule eliminate the padding from the ul to make the icons be more centered*/
-            .social ul{
-                padding-left: 0px;
-            }
-            /*move the download link in (LINKS) to make it more centered*/
-            #download-link-footer{
-                position: relative;
-                left: 10px;
-                font-size: 15px;
-            }
-          
-        }
-            /*this rules make the web looks nicer when it reach width below 456px*/
-
-            @media (max-width:456px){
-
-                /*fixed background white bar bottom problem*/
-                body{
-                    max-height: 1750px;
-                }
-
-                /**this rule make the mobile header looks more verticaly centered*/
-                #mobile-header{
-                        position: relative;
-                        top: 20px;
-                }
-                /*this rule make the dropdown buttom looks more centered*/
-                #menu-buttom{
-                     top: -6px;
-                     font-size: 20px;
-                }
-             
-        }
-                
-        
-        /* MY STORY RULES */
-
-        /*SECTION*/
-            .work-history-block-mobile{
-                display: none;
-                visibility: hidden;
-            }
-            /*this rule make the circle image in the my history work*/
-            .empresas{
-                border-radius: 50%;
-                width: 90px;
-                height: 90px;
-            }
-            /*this rule is to add border to the different element in the work history*/
-            .solid-border{
-                border: solid 2px black;
-            }
-            /*this rule is for that boxes in the my history work*/
-            .square-date{
-                background-color: orange;
-                width: 90px;
-                margin: 20px -2px;
-                height: 25px;
-            }
-            /* to avoid the block positioning this option conver the work item in a inline-block element to make it one next to eachother*/
-            .work-item{
-                display: inline-block;
-            }
-            /*to aling all the squares in a same line we move the work item 90px*/
-            .work-item-displaced{
-                position: relative;
-                top: 89px;
-            }
-            /*this rule make the hr a horizontal line to conect all the diferent work items*/
-            .work-line-conector{
-                width: 70px;
-                opacity: 1;
-                position: relative;
-                padding: 0px;
-                top: 103px;
-                right: 2px;
-            }
-            /*this rule make the div a vertical line to conect all the diferent work items with the logos*/
-            .vertical-line-table{
-                border: none;
-                width: 3px;
-                height: 22px;
-                background-color: black;
-                position: relative;
-            }
-            /*this rule apply for everi single vertical line in the work history to make the position look better*/
-            .vertical-line-regular {
-                top: 88px;
-                left: 41px;
-            }
-            /*because one of the work items is displaced to the bottom we need a rule to this particular item to make it move in a better position*/
-            .vertical-line-displaced{
-                top: -22px;
-                left: 41px;
-            }
-            /*this rule aplly the logo background to the jazztel circle*/
-            .logo-jazztel{
-                background-image: url("../images/jazztel.png");
-                background-position: center;
-                background-size: cover;
-            }
-            /*this rule aplly the logo background to the hdc circle*/
-            .logo-hdc{
-                background-image: url("../images/hdc.png");
-                background-position: center;
-                background-size: cover;
-            }
-            /*this rule aplly the logo background to the morrisons circle*/
-            .logo-morrisons{
-                background-image: url("../images/morrisons.png");
-                background-position: center;
-                background-size: cover;
-            }
-            .logo-sarmiento{
-                background-image: url("../images/sarmiento.png");
-                background-position: center;
-                background-size: cover;
-            }
-            .logo-utn{
-                background-image: url("../images/utn.png");
-                background-position: center;
-                background-size: cover;
-            }
-            .logo-ccna{
-                background-image: url("../images/ccna.png");
-                background-position: center;
-                background-size: cover;
-            }
-            /*this rule move the whole block of history work 35px to make it looks better*/
-            .work-history-block{
-                margin-top: 35px;
-            }
-            /*this rule is applied to every single square in the my work history, adjunsting position and the font size of the P element inside*/
-            .square-date p{
-                float: right;
-                position: relative;
-                top: 30px;
-                left: -5px;
-                font-size: 20px;
-                font-weight: 500;
-            }
-            /*because we have 1 element displaced we create this rule to make it looks nicer*/
-            .work-item-displaced p {
-                top: -35px;
-            }
-            /*this rule is applied to the span inside of the vertical line, this span correspond to the kind of work made in that particular company*/
-            .vertical-line-table span {
-                float: right;
-                position: relative;
-                top: 85px;
-                width: 120px;
-                left: 57px;
-                font-weight: 600;
-            }
-            /*like every single rule, we need one for de displaced element inside of our work history, this rule applied to the span element inside of the vertical displaced line*/
-            .vertical-line-displaced span{
-                top: -105px
-            }
-
-        
-        
-        /*responsive rules*/
-
-        @media (max-width:500px){
-               
-                .work-item{
-                    display: none;
-                    visibility: hidden;
-                }
-                .work-history-block{
-                   display: none;
-                   visibility: hidden;
-                } 
-                .work-history-block-mobile{
-                   display: block;
-                   visibility: visible;
-                }
-                .time-line{
-                   margin-top: 45px;
-                }
-                .time-line li{
-                    border-left: solid 3px black;
-                    width: 134px;
-                    height: 150px;
-                    position: relative;
-                    left: 40px;
-                }
-                .work-line-conector{
-                    display: none;
-                    visibility: hidden;
-                }
-                .work-line-conector-mobile{
-                    width: 22px;
-                    position: relative;
-                    opacity: 1;
-                    display: block;
-                    right: 23px;
-                    top: 24px;
-                }
-                .time-line li div{
-                    position: relative;
-                    left: 20px;
-                    bottom: 20px;
-                }
-                .time-line-item p{
-                    margin-left: 10px;
-                    position: relative;
-                    font-weight: 600;
-                    bottom: 23px;
-                }
-                .time-line .time-line-item-displaced{
-                    left: -91px;
-                    border-left: none;
-                    border-right: solid 3px black;
-                }
-                .time-line .time-line-item-displaced p{
-                    margin-left: 0px;
-                    font-weight: 600;
-                }
-                .time-line .time-line-item-displaced hr{
-                    right: 0px;
-                    left: 88px;
-                }
-                .time-line .time-line-item-displaced div{
-                    left: 20px;
-                }
-
-        }
-
-        /* about me rules */
-
-        .progress{
-            height: 2rem;
-            margin: 39px 25px;
-            background-color: #3A95CB;
-        }
-        .coding-and-others-skills{
-            position: relative;
-            top: 40%;
-        }
-        .progress-bar{
-            padding-left: 15px;
-            text-align: left;
-            font-weight: 500;
-            background-color: #225979;
-        }
-
-        .main-box-data-title-contact{
-            height: 140px;
-        }
-
-        textarea{
-            display: block;
-            margin: 15px auto;
-        }
-        .btn-success:focus{
-            color: white;
-            background-color: #007a2f54;
-            box-shadow: unset;
-        }
-        .btn-success:focus::after{
-            content: ' Sent';
-        }
-
-        fieldset {
-            min-width: 300px;
-            padding: 25px;
-            margin-top: 55px;
-            border: solid 1px;
-            max-width: 550px;
-            text-align: left;
-        }
-        #contact-fieldset-tittle {
-            width: 120px;
-            left:15px;
-            position: relative;
-            background-color: #f4f1de;
-            display: block;
-            float:none;
-        }
-        input{
-            display: block;
-            margin: 5px auto;
-        }
-        .contact-form-labels{
-            
-            margin-left: 17px;
-            text-align: left;
-        }
-        #contact-heading{
-            margin-top: 45px;
-        }
-        #contact-col{
-            height: 600px;
-        }
-        @media (max-width:992px){
-        #contact-section{
-            height: 750px;
-        }
+    .second-box-content h2{
+        margin: 60px auto 30px auto;
     }
+
+    /*this rule ajust the posistion of the image*/
+    .imagen{
+        top: 120px;
+        left: -155px;
+    }
+
+    .activity-item {
+        margin-top: 50px;
+    }
+
+    /*fix overlaping*/
+    .second-box-content {
+        padding: 25px 25px 10px 25px;
+    }
+
+}
+
+/*rules for screen width 992px*/
+@media (max-width:992px){
+
+    /* general */
+
+    /*this rule ajust the main box and the footer with a 100% width because we hidde the recent activity box*/
+    .mobile-width-ajustment{
+        width: 100%;
+    }
+
+    /*  header */
+
+    /*this margin applied to the li element make the li be in the same line when the screen width is below 992px*/
+    .ul-nav-bar li{
+        margin: 5px 15px;
+    }
+             
+    /* this rule aling the anchor with the span elemnt (the vertical lines)*/
+    .ul-nav-bar a{
+        top: 10px;
+    }
+
+    /* make some space in the divs and adjust position*/
+    .ul-nav-bar div {
+        width: 130px;
+        padding: 5px 0px;
+        position: relative;
+        right: 10px;
+    }
+
+    /*  SECTION  */
+
+    /*this rule hidde the recent activity box*/
+    .recent-activity-property{
+        display: none;
+        visibility: hidden;
+    }
+            
+    /*  FOOTER  */
+
+    /*because i hidde the recent activity box, the footer come up, so this rule adjust the position to not overlap the second box*/
+    footer{
+        position: relative;
+        top: 0px;
+    }
+
+}
+
+/*this rules are made to adjust the content when the width is below 768px*/
+@media (max-width:768px){
+
+    /*this rule fixed de problem with the background*/
+    body{
+        background-size: auto 1750px;
+        max-height: 1650px;
+    }
+
+    /*this rule make the mobile navbar appear*/
+    #mobile-header{
+        visibility: visible;
+        display: initial;
+    }
+
+    /*this rule adjust the mobile header tittle (full stack developer)*/
+    #tittle-header-mobile{
+        float: left;
+        font-size: 28px;
+        margin: 5px;
+    }
+
+    /*this rule improve the position of the mobile navbar*/
+    #mobile-header{
+        position: relative;
+        top: 15px;
+    }
+
+    /*this rule make the nav button (dropdown) be in the rigth side of the page, when is in mobile mode*/
+    #menu-buttom{
+        float: right;
+        right: 10px;
+    }
+
+    /*this rule make the desktop navbar disappear, its hidde the desktop navbar*/
+    .ul-nav-bar{
+        display: none;
+        visibility: hidden;
+    }
+
+    /*this make the dropdown menu smaller*/
+    .dropdown-menu {
+        min-width: 6em;
+        max-width: 7em;
+    }
+            
+    /* SECTION */
+
+    /*this make the div personal info for desktop disappear*/
+    #personal-info{
+        display: none;
+        visibility: hidden;
+    }
+
+    /*this make the h2 my-role disapper*/
+    #my-role{
+        visibility: hidden;
+        top: 0px;
+        left: 0px;
+    }
+
+    /*this rule modified the my-role content for the name and make it visible*/
+    #my-role:after{
+        content: 'Humberto Ragazzini';
+        visibility: visible;
+        display: flex;
+        justify-content: center;
+    }
+
+    /*this adjust the position and the radius of the image to make it more nicer*/
+    .imagen{
+        width: 200px;
+        height: 200px;
+        top: 120px;
+        left: 0px;
+        border-radius: 15%;
+    }
+
+    /*this make visible the personal info mobile div, and add some position improvement*/
+    #personal-info-mobile{
+        display: inline-block;
+        visibility: visible;
+        position: relative;
+        top: -195px;
+        text-align: center;
+    }
+
+    /*this remove the padding left of the ul list to make them be align eachother*/
+    #personal-info-ul{
+        padding-left: 0px;
+    }
+
+    /*this rule adjust the li from the personal info to make them be more closer eachother*/
+    #personal-info-ul li{
+        height: 50px;
+    }
+            
+    /*this rule add some styling to the value in the personal info mobile ul*/
+    .value-of-data {
+        position: relative;
+        left: -7px;
+    }
+
+    /*this add some style in the type of data of the personal info mobile ul*/
+    .type-of-data{
+        position: relative;
+        left: -7px;
+        font-weight: 500;
+    }
+
+    /* FOOTER */
+
+    /*margin for mobile*/
+    .contact-social-divs {
+        margin: 35px auto 0 auto;
+    }
+
+    #links-div{
+        margin-top: 0px;
+        margin-bottom: 20px;
+                
+    }
+            
+    /*this rule make the span disapear to leave all the icons alones*/
+    .footer-layout-transformation span{
+        visibility: hidden;
+        display: none;
+    }
+
+    /*this rule make the li of the social footer part one next to eachother*/
+    .footer-layout-transformation.social-footer li{
+        display: inline;
+        padding: 0px;
+        font-size: 40px;
+    }
+
+    /*this rule make de col footer adjust the height depending of the width*/
+    .footer-col{
+        height: auto;
+    }
+
+    /*because we move all the divs in one line, this rule help to align every one in the center*/
+    .contact-social-divs{
+        text-align: center;
+    }
+
+    /*this rule eliminate the padding from the ul to make the icons be more centered*/
+    .social ul{
+        padding-left: 0px;
+    }
+
+    /*move the download link in (LINKS) to make it more centered*/
+    #download-link-footer{
+        position: relative;
+        left: 10px;
+        font-size: 15px;
+    }
+          
+}
+
+/*this rules make the web looks nicer when it reach width below 456px*/
+
+@media (max-width:456px){
+
+    /*fixed background white bar bottom problem*/
+    body{
+        max-height: 1750px;
+    }
+
+    /**this rule make the mobile header looks more verticaly centered*/
+    #mobile-header{
+        position: relative;
+        top: 20px;
+    }
+
+    /*this rule make the dropdown button looks more centered*/
+    #menu-buttom{
+        top: -6px;
+        font-size: 20px;
+    }
+             
+}
+                
+        
+/* MY STORY RULES */
+
+/*SECTION*/
+.work-history-block-mobile{
+    display: none;
+    visibility: hidden;
+}
+
+/*this rule make the circle image in the my history work*/
+.empresas{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+
+/*this rule is to add border to the different element in the work history*/
+.solid-border{
+    border: solid 2px black;
+}
+
+/*this rule is for that boxes in the my history work*/
+.square-date{
+    background-color: orange;
+    width: 90px;
+    margin: 20px -2px;
+    height: 25px;
+}
+
+/* to avoid the block positioning this option conver the work item in a inline-block element to make it one next to eachother*/
+.work-item{
+    display: inline-block;
+}
+
+/*to align all the squares in a same line we move the work item 90px*/
+.work-item-displaced{
+    position: relative;
+    top: 89px;
+}
+
+/*this rule make the hr a horizontal line to conect all the diferent work items*/
+.work-line-conector{
+    width: 70px;
+    opacity: 1;
+    position: relative;
+    padding: 0px;
+    top: 103px;
+    right: 2px;
+}
+
+/*this rule make the div a vertical line to conect all the different work items with the logos*/
+.vertical-line-table{
+    border: none;
+    width: 3px;
+    height: 22px;
+    background-color: black;
+    position: relative;
+}
+
+/*this rule apply for every single vertical line in the work history to make the position look better*/
+.vertical-line-regular {
+    top: 88px;
+    left: 41px;
+}
+
+/*because one of the work items is displaced to the bottom we need a rule to this particular item to make it move in a better position*/
+.vertical-line-displaced{
+    top: -22px;
+    left: 41px;
+}
+
+/*this rule aplly the logo background to the jazztel circle*/
+.logo-jazztel{
+    background-image: url("../images/jazztel.png");
+    background-position: center;
+    background-size: cover;
+}
+
+/*this rule aplly the logo background to the hdc circle*/
+.logo-hdc{
+    background-image: url("../images/hdc.png");
+    background-position: center;
+    background-size: cover;
+}
+
+/*this rule aplly the logo background to the morrisons circle*/
+.logo-morrisons{
+    background-image: url("../images/morrisons.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.logo-sarmiento{
+    background-image: url("../images/sarmiento.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.logo-utn{
+    background-image: url("../images/utn.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.logo-ccna{
+    background-image: url("../images/ccna.png");
+    background-position: center;
+    background-size: cover;
+}
+
+/*this rule move the whole block of history work 35px to make it looks better*/
+.work-history-block{
+    margin-top: 35px;
+}
+
+/*this rule is applied to every single square in the my work history, adjunsting position and the font size of the P element inside*/
+.square-date p{
+    float: right;
+    position: relative;
+    top: 30px;
+    left: -5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/*because we have 1 element displaced we create this rule to make it looks nicer*/
+.work-item-displaced p {
+    top: -35px;
+}
+
+/*this rule is applied to the span inside of the vertical line, this span correspond to the kind of work made in that particular company*/
+.vertical-line-table span {
+    float: right;
+    position: relative;
+    top: 85px;
+    width: 120px;
+    left: 57px;
+    font-weight: 600;
+}
+
+/*like every single rule, we need one for the displaced element inside of our work history, this rule applied to the span element inside of the vertical displaced line*/
+    .vertical-line-displaced span{
+    top: -105px
+}
+   
+/*responsive rules*/
+
+@media (max-width:500px){
+               
+    .work-item{
+        display: none;
+        visibility: hidden;
+    }
+
+    .work-history-block{
+        display: none;
+        visibility: hidden;
+    }
+
+    .work-history-block-mobile{
+        display: block;
+        visibility: visible;
+    }
+
+    .time-line{
+        margin-top: 45px;
+    }
+
+    .time-line li{
+        border-left: solid 3px black;
+        width: 134px;
+        height: 150px;
+        position: relative;
+        left: 40px;
+    }
+
+    .work-line-conector{
+        display: none;
+        visibility: hidden;
+    }
+
+    .work-line-conector-mobile{
+        width: 22px;
+        position: relative;
+        opacity: 1;
+        display: block;
+        right: 23px;
+        top: 24px;
+    }
+
+    .time-line li div{
+        position: relative;
+        left: 20px;
+        bottom: 20px;
+    }
+
+    .time-line-item p{
+        margin-left: 10px;
+        position: relative;
+        font-weight: 600;
+        bottom: 23px;
+    }
+
+    .time-line .time-line-item-displaced{
+        left: -91px;
+        border-left: none;
+        border-right: solid 3px black;
+    }
+
+    .time-line .time-line-item-displaced p{
+        margin-left: 0px;
+        font-weight: 600;
+    }
+
+    .time-line .time-line-item-displaced hr{
+        right: 0px;
+        left: 88px;
+    }
+
+    .time-line .time-line-item-displaced div{
+        left: 20px;
+    }
+
+}
+
+/* about me rules */
+
+.progress{
+    height: 2rem;
+    margin: 39px 25px;
+    background-color: #3A95CB;
+}
+
+.coding-and-others-skills{
+    position: relative;
+    top: 40%;
+}
+
+.progress-bar{
+    padding-left: 15px;
+    text-align: left;
+    font-weight: 500;
+    background-color: #225979;
+}
+
+.main-box-data-title-contact{
+    height: 140px;
+}
+
+textarea{
+    display: block;
+    margin: 15px auto;
+}
+
+.btn-success:focus{
+    color: white;
+    background-color: #007a2f54;
+    box-shadow: unset;
+}
+
+.btn-success:focus::after{
+    content: ' Sent';
+}
+
+fieldset {
+    min-width: 300px;
+    padding: 25px;
+    margin-top: 55px;
+    border: solid 1px;
+    max-width: 550px;
+    text-align: left;
+}
+
+#contact-fieldset-tittle {
+    width: 120px;
+    left:15px;
+    position: relative;
+    background-color: #f4f1de;
+    display: block;
+    float:none;
+}
+
+input{
+    display: block;
+    margin: 5px auto;
+}
+
+.contact-form-labels{
+    margin-left: 17px;
+    text-align: left;
+}
+
+#contact-heading{
+    margin-top: 45px;
+}
+
+#contact-col{
+    height: 600px;
+}
+        
+@media (max-width:992px){
+    
+    #contact-section{
+        height: 750px;
+    }
+    
+}
