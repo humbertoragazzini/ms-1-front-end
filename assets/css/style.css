@@ -319,7 +319,7 @@ ul {
             .activity-item {
                 margin-top: 50px;
             }
-            
+            /*fix overlaping*/
             .second-box-content {
                 padding: 25px 25px 10px 25px;
             }
@@ -390,6 +390,7 @@ ul {
             #tittle-header-mobile{
                 float: left;
                 font-size: 28px;
+                margin: 5px;
             }
             /*this rule improve the position of the mobile navbar*/
             #mobile-header{
@@ -399,7 +400,7 @@ ul {
             /*this rule make the nav button (dropdown) be in the rigth side of the page, when is in mobile mode*/
             #menu-buttom{
                 float: right;
-                right: 40px;
+                right: 10px;
             }
             /*this rule make the desktop navbar disapear, its hidde the desktop navbar*/
             .ul-nav-bar{
