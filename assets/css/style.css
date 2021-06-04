@@ -1,7 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500;700&family=Josefin+Slab:wght@100;200;300;400;500;600;700&display=swap');
 
-
 /*GENERAL RULEs*/
 #page{
     height: 900px;
@@ -76,10 +75,7 @@ ul {
     visibility: hidden;
 }
 
-
-
 /*COLORS*/
-
 
 /* HEADER */
                         
@@ -130,14 +126,9 @@ footer a{
 a:hover{
     color: #f2cc8f;
 }
-        
-            
-
-        
 
 
 /* GENERAL RULES */
-
 
 /*header*/
             
@@ -841,6 +832,8 @@ footer{
 .main-box-data-title-contact{
     height: 140px;
 }
+
+/*contact form*/
 
 textarea{
     display: block;
