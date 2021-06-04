@@ -143,7 +143,7 @@ a:hover{
 /*this rule make li be inline-block element to be one next to other adding some margin to make them looks better, this rule make the navbar be horizontal*/
 .ul-nav-bar li{
     display: inline-block;
-    margin: 5px 15px;
+    /*margin: 5px 15px;*/
 }
 
 .ul-nav-bar div{
