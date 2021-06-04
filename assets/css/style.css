@@ -3,13 +3,14 @@
 
 
 /*GENERAL RULEs*/
+#page{
+    height: 900px;
+}
 body{
-    background-image: url(../images/background-text.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url(../images/background-text.jpg); 
     background-size: cover;
-    max-width: 1080px;
-    max-height: 1360px;
+    background-repeat: no-repeat;
+    height: 1360px;
     margin: 0 auto 10px auto;
     color: black;
     font-family: 'Alegreya Sans', sans-serif;
@@ -291,6 +292,7 @@ ul {
             footer{
                 position: relative;
                 top: -250px;
+                margin-bottom: -250px;
             }
             /*this add some space between the footer box and the second box, in the home page for example is the my core competence*/
             .footer-border{
@@ -311,6 +313,10 @@ ul {
             }
             .activity-item {
                 margin-top: 50px;
+            }
+            
+            .second-box-content {
+                padding: 25px 25px 10px 25px;
             }
 
         }
@@ -366,7 +372,8 @@ ul {
 
             /*this rule fixed de problem with the background*/
             body{
-                max-height: 1600px;
+                background-size: auto 1750px;
+                max-height: 1650px;
             }
 
             /*this rule make the mobile navbar appear*/
