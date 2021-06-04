@@ -482,7 +482,7 @@ To clone de repository follow this steps:
 ## **Content**
 
 **The text:**
-- I write all the text in the web site, my mentor read it a notice some spelling problems, my wife helps me to fixed it. (Thanks to Yamile Simes who help me with all the spellings errors)
+- I wrote all the text in the web site, my mentor read it a notice some spelling problems, my wife help me to fixed it. (Thanks to Yamile Simes who help me with all the spelling errors)
 
 **The form:** 
 - part of the code was taken from the official bootstrap website and from the code institute learning page
@@ -496,7 +496,7 @@ _[font awesome web site](https://fontawesome.com/)_.
 - From google fonts, this link is from learning page in code institute.
 
 **Navmenu (desktop):**
-- I take this from code institute learning videos, and make some modifications
+- I take this from code institute learning videos, and make some modifications.
 
 **Navmenu (mobile):** 
 - Taken from bootstrap dropdown and navbar menus.
@@ -512,7 +512,7 @@ _[progress bars bootstrap](https://getbootstrap.com/docs/5.0/components/progress
 **Background**: made with GIMP on windows.
 
 **Colors**: 
-- the colors of the enterely website was taken from _[coolors](https://www.coolors.co)_.
+- the colors of the entirely website was taken from _[coolors](https://www.coolors.co)_.
 - Thanks to my mentor for provide me with this link.
 
 **Videos**: 
